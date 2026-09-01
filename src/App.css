@@ -837,6 +837,22 @@
   gap: 12px;
 }
 
+.domain-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.domain-group-title {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
 .admin-table-wrap {
   overflow-x: auto;
   border: 1px solid var(--border);

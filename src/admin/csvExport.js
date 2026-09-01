@@ -8,27 +8,29 @@ function escapeCsvCell(value) {
 
 export function downloadAttemptsCsv(attempts) {
   const headers = [
-    "Login ID",
     "Name",
+    "Login ID",
     "Domain",
     "Status",
     "Correct",
     "Wrong",
     "Not Attempted",
-    "Total",
+    "Final Score",
     "Time Used",
     "Submitted At",
   ];
 
-  const rows = attempts.map((a) => [
-    a.candidate.loginId,
+  const sorted = [...attempts].sort((a, b) => a.domain.title.localeCompare(b.domain.title));
+
+  const rows = sorted.map((a) => [
     a.candidate.name,
+    a.candidate.loginId,
     a.domain.title,
     a.hasSubmitted ? (a.timedOut ? "Timed out" : "Submitted") : "Pending",
     a.hasSubmitted ? a.correctCount : "",
     a.hasSubmitted ? a.wrongCount : "",
     a.hasSubmitted ? a.notAttemptedCount : "",
-    a.hasSubmitted ? a.total : "",
+    a.hasSubmitted ? `${a.correctCount} / ${a.total}` : "",
     a.hasSubmitted ? formatSeconds(a.timeUsedSeconds) : "",
     a.hasSubmitted ? new Date(a.submittedAt).toLocaleString() : "",
   ]);

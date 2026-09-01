@@ -55,7 +55,7 @@ export default function AttemptDetail({ token, attemptId, onBack, onLogout }) {
             </p>
             <p>
               Correct: <strong>{data.correctCount}</strong> · Wrong: <strong>{data.wrongCount}</strong> · Not
-              attempted: <strong>{data.notAttemptedCount}</strong> · Score:{" "}
+              attempted: <strong>{data.notAttemptedCount}</strong> · Final score:{" "}
               <strong>{data.score} / {data.total}</strong>
             </p>
             <p>
