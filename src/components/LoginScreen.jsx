@@ -1,22 +1,36 @@
 import { useState } from "react";
 import orchidLogo from "../assets/orchid-logo.svg";
 
-const DEMO_LOGIN_ID = "candidate01";
-const DEMO_PASSWORD = "orchid2026";
-
-export default function LoginScreen({ onLogin }) {
+export default function LoginScreen({ onLoggedIn }) {
   const [loginId, setLoginId] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState("");
+  const [submitting, setSubmitting] = useState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    if (loginId.trim() === DEMO_LOGIN_ID && password === DEMO_PASSWORD) {
-      setError("");
-      onLogin(loginId.trim());
-    } else {
-      setError("Incorrect login ID or password. Please try again.");
+    setError("");
+
+    if (!loginId.trim() || !password) {
+      setError("Please enter your login ID and password.");
+      return;
+    }
+
+    setSubmitting(true);
+    try {
+      const res = await fetch("/api/candidates/login", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ loginId: loginId.trim(), password }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "Incorrect login ID or password.");
+      onLoggedIn(data.candidate);
+    } catch (err) {
+      setError(err.message || "Incorrect login ID or password.");
+    } finally {
+      setSubmitting(false);
     }
   };
 
@@ -27,8 +41,8 @@ export default function LoginScreen({ onLogin }) {
         <div className="login-badge">Doctoral Candidate Portal</div>
         <h1 className="login-title">Sign in to begin your assessment</h1>
         <p className="login-sub">
-          Use the credentials provided in your invitation email to access the Research
-          Aptitude &amp; Reasoning Assessment.
+          Use the login ID and password provided in your invitation email to access your
+          Ph.D. Entrance Assessment.
         </p>
 
         <form className="login-form" onSubmit={handleSubmit} noValidate>
@@ -44,7 +58,7 @@ export default function LoginScreen({ onLogin }) {
               <input
                 type="text"
                 autoComplete="username"
-                placeholder="e.g. candidate01"
+                placeholder="e.g. adityasingh1"
                 value={loginId}
                 onChange={(e) => setLoginId(e.target.value)}
                 required
@@ -103,8 +117,8 @@ export default function LoginScreen({ onLogin }) {
 
           {error && <div className="login-error">{error}</div>}
 
-          <button type="submit" className="login-btn">
-            Sign in
+          <button type="submit" className="login-btn" disabled={submitting}>
+            {submitting ? "Signing in…" : "Sign in"}
           </button>
         </form>
       </div>

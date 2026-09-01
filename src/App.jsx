@@ -4,42 +4,94 @@ import IntroScreen from "./components/IntroScreen";
 import QuizScreen from "./components/QuizScreen";
 import CompleteScreen from "./components/CompleteScreen";
 import { useCountdown } from "./hooks/useCountdown";
-import { QUESTIONS, ASSESSMENT_DURATION_SECONDS } from "./data/questions";
 import "./App.css";
 
-const PHASES = { LOGIN: "login", INTRO: "intro", QUIZ: "quiz", COMPLETE: "complete" };
+const PHASES = { LOGIN: "login", LOADING: "loading", INTRO: "intro", QUIZ: "quiz", COMPLETE: "complete" };
 
 export default function App() {
   const [phase, setPhase] = useState(PHASES.LOGIN);
-  const [candidateId, setCandidateId] = useState("");
+  const [candidate, setCandidate] = useState(null);
+  const [domain, setDomain] = useState(null);
+  const [questions, setQuestions] = useState([]);
   const [current, setCurrent] = useState(0);
-  const [answers, setAnswers] = useState(() => new Array(QUESTIONS.length).fill(null));
+  const [answers, setAnswers] = useState([]);
   const [locked, setLocked] = useState(false);
   const [timedOut, setTimedOut] = useState(false);
+  const [submitError, setSubmitError] = useState("");
   const timeUsedRef = useRef(0);
+  const startedAtRef = useRef(null);
 
-  const finishAssessment = useCallback((byTimeout, secondsLeft) => {
-    setLocked(true);
-    if (byTimeout) {
-      setTimedOut(true);
-      timeUsedRef.current = ASSESSMENT_DURATION_SECONDS;
-      setTimeout(() => setPhase(PHASES.COMPLETE), 1400);
-    } else {
-      timeUsedRef.current = ASSESSMENT_DURATION_SECONDS - secondsLeft;
-      setPhase(PHASES.COMPLETE);
-    }
-  }, []);
+  const durationSeconds = domain?.durationSeconds ?? 15 * 60;
 
-  const timeLeft = useCountdown(ASSESSMENT_DURATION_SECONDS, phase === PHASES.QUIZ && !locked, () =>
+  const submitAttempt = useCallback(
+    async (finalAnswers, byTimeout, timeUsed) => {
+      try {
+        const res = await fetch("/api/attempts/submit", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({
+            candidateId: candidate.id,
+            answers: finalAnswers,
+            timeUsedSeconds: timeUsed,
+            timedOut: byTimeout,
+            startedAt: startedAtRef.current,
+          }),
+        });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error || "Submission failed");
+      } catch (err) {
+        setSubmitError(err.message || "Could not submit your assessment. Please contact the coordinator.");
+      }
+    },
+    [candidate]
+  );
+
+  const finishAssessment = useCallback(
+    (byTimeout, secondsLeft) => {
+      setLocked(true);
+      const timeUsed = byTimeout ? durationSeconds : durationSeconds - secondsLeft;
+      timeUsedRef.current = timeUsed;
+      setTimedOut(byTimeout);
+
+      setAnswers((currentAnswers) => {
+        submitAttempt(currentAnswers, byTimeout, timeUsed);
+        return currentAnswers;
+      });
+
+      if (byTimeout) {
+        setTimeout(() => setPhase(PHASES.COMPLETE), 1400);
+      } else {
+        setPhase(PHASES.COMPLETE);
+      }
+    },
+    [durationSeconds, submitAttempt]
+  );
+
+  const timeLeft = useCountdown(durationSeconds, phase === PHASES.QUIZ && !locked, () =>
     finishAssessment(true, 0)
   );
 
-  const handleLogin = (id) => {
-    setCandidateId(id);
-    setPhase(PHASES.INTRO);
+  const handleLoggedIn = async (loggedInCandidate) => {
+    setCandidate(loggedInCandidate);
+    setPhase(PHASES.LOADING);
+    try {
+      const res = await fetch(`/api/domains/${loggedInCandidate.domainSlug}`);
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "Could not load the assessment");
+      setDomain(data.domain);
+      setQuestions(data.questions);
+      setAnswers(new Array(data.questions.length).fill(null));
+      setPhase(PHASES.INTRO);
+    } catch (err) {
+      setSubmitError(err.message || "Could not load the assessment. Please try again.");
+      setPhase(PHASES.LOGIN);
+    }
   };
 
-  const handleStart = () => setPhase(PHASES.QUIZ);
+  const handleStart = () => {
+    startedAtRef.current = new Date().toISOString();
+    setPhase(PHASES.QUIZ);
+  };
 
   const handleSelectOption = (optionIndex) => {
     if (locked) return;
@@ -60,7 +112,7 @@ export default function App() {
 
   const handleNext = () => {
     if (locked) return;
-    if (current === QUESTIONS.length - 1) {
+    if (current === questions.length - 1) {
       finishAssessment(false, timeLeft);
     } else {
       setCurrent((c) => c + 1);
@@ -68,11 +120,26 @@ export default function App() {
   };
 
   if (phase === PHASES.LOGIN) {
-    return <LoginScreen onLogin={handleLogin} />;
+    return <LoginScreen onLoggedIn={handleLoggedIn} />;
+  }
+
+  if (phase === PHASES.LOADING) {
+    return (
+      <div className="screen">
+        <p>Loading assessment…</p>
+      </div>
+    );
   }
 
   if (phase === PHASES.INTRO) {
-    return <IntroScreen onStart={handleStart} />;
+    return (
+      <IntroScreen
+        onStart={handleStart}
+        title={domain?.title || "Assessment"}
+        questionCount={questions.length}
+        durationSeconds={durationSeconds}
+      />
+    );
   }
 
   if (phase === PHASES.COMPLETE) {
@@ -80,21 +147,23 @@ export default function App() {
     return (
       <CompleteScreen
         attempted={attempted}
-        total={QUESTIONS.length}
+        total={questions.length}
         timeUsedSeconds={timeUsedRef.current}
+        submitError={submitError}
       />
     );
   }
 
   return (
     <QuizScreen
-      questions={QUESTIONS}
+      questions={questions}
       current={current}
       answers={answers}
       timeLeft={timeLeft}
+      durationSeconds={durationSeconds}
       locked={locked}
       timedOut={timedOut}
-      candidateId={candidateId}
+      candidateId={candidate?.name}
       onSelectOption={handleSelectOption}
       onJump={handleJump}
       onBack={handleBack}

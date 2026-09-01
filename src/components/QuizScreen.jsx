@@ -2,13 +2,13 @@ import Timer from "./Timer";
 import ProgressGrid from "./ProgressGrid";
 import Question from "./Question";
 import orchidLogo from "../assets/orchid-logo.svg";
-import { ASSESSMENT_DURATION_SECONDS } from "../data/questions";
 
 export default function QuizScreen({
   questions,
   current,
   answers,
   timeLeft,
+  durationSeconds,
   locked,
   timedOut,
   candidateId,
@@ -70,7 +70,7 @@ export default function QuizScreen({
         </div>
 
         <div className="sidebar">
-          <Timer timeLeft={timeLeft} durationSeconds={ASSESSMENT_DURATION_SECONDS} />
+          <Timer timeLeft={timeLeft} durationSeconds={durationSeconds} />
           <ProgressGrid answers={answers} current={current} onJump={onJump} locked={locked} />
           <div className="instructions-note">
             Click any tile to jump directly to that question. Attempted questions are marked

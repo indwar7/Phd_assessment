@@ -1,7 +1,7 @@
 import orchidLogo from "../assets/orchid-logo.svg";
 import { formatTime } from "../hooks/useCountdown";
 
-export default function CompleteScreen({ attempted, total, timeUsedSeconds }) {
+export default function CompleteScreen({ attempted, total, timeUsedSeconds, submitError }) {
   return (
     <div className="screen">
       <div className="complete-card">
@@ -20,6 +20,7 @@ export default function CompleteScreen({ attempted, total, timeUsedSeconds }) {
         </div>
         <h1 className="complete-title">Thank you for attempting the assessment</h1>
         <p className="complete-sub">Our team will get back to you soon. You may now close this window.</p>
+        {submitError && <p className="login-error">{submitError}</p>}
         <div className="complete-stats">
           <div className="complete-stat">
             <span className="complete-stat-num">

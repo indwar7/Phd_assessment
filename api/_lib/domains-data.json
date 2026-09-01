@@ -1,0 +1,4170 @@
+{
+  "domains": [
+    {
+      "slug": "management",
+      "school": "Management",
+      "title": "Management",
+      "durationMinutes": 120,
+      "questions": [
+        {
+          "tag": null,
+          "text": "The primary purpose of research is to:",
+          "options": [
+            "Collect maximum data",
+            "Generate new knowledge or validate existing knowledge",
+            "Increase the length of a report",
+            "Confirm personal opinions"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "A research problem should ideally be:",
+          "options": [
+            "Very broad and vague",
+            "Clearly defined and researchable",
+            "Based only on personal opinion",
+            "Impossible to measure"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "A hypothesis is:",
+          "options": [
+            "A proven fact",
+            "A tentative statement that can be tested",
+            "A research report",
+            "A sampling technique"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which of the following is generally considered an independent variable?",
+          "options": [
+            "The outcome being measured",
+            "The variable manipulated or controlled by the researcher",
+            "The error term",
+            "The sample size"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "A literature review primarily helps a researcher to:",
+          "options": [
+            "Avoid reading previous studies",
+            "Identify existing knowledge and research gaps",
+            "Increase the number of references only",
+            "Replace primary research"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which research approach primarily uses numerical data?",
+          "options": [
+            "Qualitative",
+            "Quantitative",
+            "Historical",
+            "Narrative"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which of the following is a probability sampling technique?",
+          "options": [
+            "Convenience sampling",
+            "Purposive sampling",
+            "Simple random sampling",
+            "Judgment sampling"
+          ],
+          "correct": 2
+        },
+        {
+          "tag": null,
+          "text": "In stratified sampling, the population is divided into:",
+          "options": [
+            "Random individuals only",
+            "Homogeneous subgroups or strata",
+            "Experimental groups only",
+            "Research teams"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "A questionnaire is primarily used for:",
+          "options": [
+            "Data collection",
+            "Data storage",
+            "Data encryption",
+            "Literature classification"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Primary data are:",
+          "options": [
+            "Data collected directly by the researcher for the study",
+            "Data obtained only from books",
+            "Data taken from old research papers",
+            "Data published by government agencies only"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Secondary data may be obtained from:",
+          "options": [
+            "Interviews conducted specifically for the study",
+            "Published reports and databases",
+            "Laboratory experiments only",
+            "Direct observation only"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Reliability of a research instrument refers to its:",
+          "options": [
+            "Cost",
+            "Consistency of measurement",
+            "Length",
+            "Appearance"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Validity refers to:",
+          "options": [
+            "Whether an instrument measures what it is intended to measure",
+            "Whether data are collected quickly",
+            "The number of respondents",
+            "The number of questions"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which scale has categories without any inherent order?",
+          "options": [
+            "Nominal",
+            "Ordinal",
+            "Interval",
+            "Ratio"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "The mean is calculated by:",
+          "options": [
+            "Dividing the largest value by the smallest value",
+            "Adding all observations and dividing by the number of observations",
+            "Selecting the middle observation",
+            "Selecting the most frequent observation"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "The median is:",
+          "options": [
+            "The most frequent value",
+            "The arithmetic average",
+            "The middle value in an ordered dataset",
+            "The difference between maximum and minimum"
+          ],
+          "correct": 2
+        },
+        {
+          "tag": null,
+          "text": "The mode represents:",
+          "options": [
+            "The middle value",
+            "The most frequently occurring value",
+            "The average value",
+            "The minimum value"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Standard deviation is a measure of:",
+          "options": [
+            "Central tendency",
+            "Dispersion",
+            "Correlation only",
+            "Sampling technique"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Correlation measures:",
+          "options": [
+            "The cause of a phenomenon",
+            "The degree of relationship between variables",
+            "The size of a population",
+            "The reliability of a questionnaire"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "A correlation coefficient of +1 indicates:",
+          "options": [
+            "Perfect positive relationship",
+            "Perfect negative relationship",
+            "No relationship",
+            "Weak relationship"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "The null hypothesis generally states that:",
+          "options": [
+            "There is a significant relationship or difference",
+            "There is no significant relationship or difference",
+            "The research is invalid",
+            "The sample is biased"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "A p-value is commonly used in hypothesis testing to:",
+          "options": [
+            "Determine the sample size only",
+            "Assess statistical evidence against the null hypothesis",
+            "Calculate the mean",
+            "Identify the research topic"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Plagiarism means:",
+          "options": [
+            "Collecting primary data",
+            "Presenting another person's work or ideas as one's own without proper acknowledgment",
+            "Conducting a survey",
+            "Publishing original research"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Research ethics primarily deals with:",
+          "options": [
+            "Increasing research funding",
+            "Responsible and ethical conduct of research",
+            "Increasing sample size",
+            "Reducing research duration"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "A research design provides:",
+          "options": [
+            "A systematic plan for conducting research",
+            "Only the final results",
+            "Only the bibliography",
+            "Only the questionnaire SECTION B – RESEARCH APTITUDE Questions 26–40"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "A researcher wants to understand employees' personal experiences in depth. Which method is most appropriate?",
+          "options": [
+            "In-depth interviews",
+            "Census only",
+            "Financial statement analysis",
+            "Random number generation"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which research method is most suitable for studying cause-and-effect relationships?",
+          "options": [
+            "Experimental research",
+            "Historical research",
+            "Descriptive research",
+            "Exploratory observation only"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "A research gap refers to:",
+          "options": [
+            "Missing pages in a research paper",
+            "An area that has not been adequately studied or addressed",
+            "A statistical error",
+            "A sampling error only"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which of the following is NOT normally a component of a research proposal?",
+          "options": [
+            "Research objectives",
+            "Research methodology",
+            "Literature review",
+            "Personal entertainment preferences"
+          ],
+          "correct": 3
+        },
+        {
+          "tag": null,
+          "text": "An operational definition explains:",
+          "options": [
+            "How a concept will be measured or observed in a study",
+            "The history of the researcher",
+            "The funding source only",
+            "The publication process"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "If a researcher studies all employees in an organization, the study is based on:",
+          "options": [
+            "Sample",
+            "Census",
+            "Convenience sampling",
+            "Snowball sampling"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which of the following can reduce sampling bias?",
+          "options": [
+            "Random selection",
+            "Selecting only friends",
+            "Selecting only convenient respondents",
+            "Ignoring the population characteristics"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "A pilot study is conducted mainly to:",
+          "options": [
+            "Publish the final research paper",
+            "Test and refine research instruments and procedures",
+            "Replace the main study",
+            "Eliminate the literature review"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which of the following is an example of qualitative data?",
+          "options": [
+            "Employee age",
+            "Monthly salary",
+            "Employee opinions about organizational culture",
+            "Number of employees"
+          ],
+          "correct": 2
+        },
+        {
+          "tag": null,
+          "text": "Which statistical test is commonly used to compare the means of two groups?",
+          "options": [
+            "t-test",
+            "Chi-square test only",
+            "Factor analysis",
+            "Cluster analysis"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "A case study generally involves:",
+          "options": [
+            "Detailed investigation of a particular case or unit",
+            "Only numerical calculations",
+            "Only laboratory experiments",
+            "No data collection"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which of the following improves the credibility of research findings?",
+          "options": [
+            "Transparent methodology",
+            "Selective reporting",
+            "Ignoring contradictory findings",
+            "Manipulating data"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "An academic journal article normally includes:",
+          "options": [
+            "Research methodology and findings",
+            "Only advertisements",
+            "Only personal opinions",
+            "No references"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which of the following is an example of research misconduct?",
+          "options": [
+            "Proper citation",
+            "Data fabrication",
+            "Peer review",
+            "Informed consent"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Informed consent means that participants:",
+          "options": [
+            "Are forced to participate",
+            "Understand the study and voluntarily agree to participate",
+            "Cannot withdraw from the study",
+            "Must disclose private information publicly SECTION C – MANAGEMENT Questions 41–75"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "The primary functions of management generally include:",
+          "options": [
+            "Planning, organizing, staffing, directing and controlling",
+            "Selling, purchasing and advertising only",
+            "Manufacturing and transportation only",
+            "Recruitment and retirement only"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Who is widely regarded as the father of scientific management?",
+          "options": [
+            "Henri Fayol",
+            "F.W. Taylor",
+            "Elton Mayo",
+            "Peter Drucker"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Henri Fayol proposed:",
+          "options": [
+            "Principles of management",
+            "Two-factor theory",
+            "Hierarchy of needs",
+            "Theory X and Theory Y"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "The first step in the planning process is generally:",
+          "options": [
+            "Setting objectives",
+            "Controlling employees",
+            "Evaluating results",
+            "Preparing financial statements"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "SWOT analysis stands for:",
+          "options": [
+            "Strengths, Weaknesses, Opportunities and Threats",
+            "Systems, Work, Operations and Technology",
+            "Strategy, Workforce, Organization and Training",
+            "Sales, Wealth, Output and Targets"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which of the following is an external factor in SWOT analysis?",
+          "options": [
+            "Strength",
+            "Weakness",
+            "Opportunity",
+            "Internal capability"
+          ],
+          "correct": 2
+        },
+        {
+          "tag": null,
+          "text": "Span of control refers to:",
+          "options": [
+            "Number of employees directly supervised by a manager",
+            "Number of departments in an organization",
+            "Number of company products",
+            "Total organizational revenue"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Delegation means:",
+          "options": [
+            "Transfer of authority to a subordinate while retaining ultimate accountability",
+            "Elimination of responsibility",
+            "Removal of all managerial authority",
+            "Centralization of all decisions"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Centralization means:",
+          "options": [
+            "Decision-making authority is concentrated at higher levels",
+            "All employees make decisions independently",
+            "Authority is completely decentralized",
+            "Employees have no responsibilities"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Maslow's hierarchy of needs consists of:",
+          "options": [
+            "Three levels",
+            "Four levels",
+            "Five levels",
+            "Seven levels"
+          ],
+          "correct": 2
+        },
+        {
+          "tag": null,
+          "text": "According to Herzberg's two-factor theory, which is a hygiene factor?",
+          "options": [
+            "Achievement",
+            "Recognition",
+            "Salary",
+            "Advancement"
+          ],
+          "correct": 2
+        },
+        {
+          "tag": null,
+          "text": "McGregor's Theory X assumes that employees:",
+          "options": [
+            "Naturally enjoy work in all circumstances",
+            "May dislike work and require direction or control",
+            "Always seek responsibility",
+            "Are completely self-directed"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Leadership is primarily concerned with:",
+          "options": [
+            "Influencing and motivating people toward organizational goals",
+            "Maintaining inventory only",
+            "Preparing invoices",
+            "Recording transactions"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Transformational leadership emphasizes:",
+          "options": [
+            "Inspiring and developing followers to achieve higher levels of performance",
+            "Strictly following existing procedures",
+            "Avoiding organizational change",
+            "Eliminating employee participation"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Human Resource Management primarily deals with:",
+          "options": [
+            "Managing people and their contribution to organizational objectives",
+            "Managing machines only",
+            "Managing raw materials only",
+            "Managing physical infrastructure only"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Job analysis involves:",
+          "options": [
+            "Systematic study of the duties, responsibilities and requirements of a job",
+            "Determining company profit",
+            "Preparing advertisements only",
+            "Evaluating competitors"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Recruitment is the process of:",
+          "options": [
+            "Attracting potential candidates for a job",
+            "Selecting the final candidate only",
+            "Training existing employees only",
+            "Retiring employees"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Selection refers to:",
+          "options": [
+            "Choosing the most suitable candidate from applicants",
+            "Attracting applicants only",
+            "Preparing job advertisements",
+            "Conducting market research"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Training primarily aims to:",
+          "options": [
+            "Improve employees' knowledge, skills and abilities",
+            "Reduce employee knowledge",
+            "Eliminate performance evaluation",
+            "Replace organizational strategy"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Performance appraisal is used to:",
+          "options": [
+            "Systematically evaluate employee performance",
+            "Determine product prices only",
+            "Calculate market share only",
+            "Prepare tax returns"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "The marketing mix traditionally consists of:",
+          "options": [
+            "2 Ps",
+            "3 Ps",
+            "4 Ps",
+            "8 Ps only"
+          ],
+          "correct": 2
+        },
+        {
+          "tag": null,
+          "text": "The traditional 4 Ps of marketing are:",
+          "options": [
+            "Product, Price, Place and Promotion",
+            "People, Process, Planning and Profit",
+            "Product, People, Performance and Planning",
+            "Price, People, Profit and Process"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Market segmentation means:",
+          "options": [
+            "Dividing a market into identifiable groups of customers",
+            "Selling one product to everyone",
+            "Eliminating competitors",
+            "Increasing production capacity"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "A target market is:",
+          "options": [
+            "A specific group of customers that an organization chooses to serve",
+            "All competitors in the industry",
+            "Only the company's employees",
+            "Government regulators"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Brand equity refers to:",
+          "options": [
+            "The value associated with a brand in the marketplace",
+            "The physical size of a company",
+            "The number of employees",
+            "The company's office space"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Financial management primarily focuses on:",
+          "options": [
+            "Procurement and effective utilization of financial resources",
+            "Recruitment only",
+            "Product packaging",
+            "Employee counselling only"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Working capital is generally calculated as:",
+          "options": [
+            "Current Assets – Current Liabilities",
+            "Total Assets – Fixed Assets",
+            "Sales – Expenses",
+            "Revenue – Capital"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "The balance sheet presents:",
+          "options": [
+            "Assets, liabilities and owner's equity at a point in time",
+            "Only sales revenue",
+            "Only cash transactions",
+            "Only employee expenses"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Break-even point is the point where:",
+          "options": [
+            "Total revenue equals total cost",
+            "Profit is maximum",
+            "Sales are zero",
+            "Fixed cost becomes zero"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Supply chain management involves:",
+          "options": [
+            "Managing the flow of goods, information and resources from suppliers to customers",
+            "Managing employees only",
+            "Managing advertisements only",
+            "Managing financial statements only"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Total Quality Management emphasizes:",
+          "options": [
+            "Continuous improvement and customer satisfaction",
+            "Cost reduction at any cost",
+            "Production without quality checks",
+            "Individual performance only"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Benchmarking involves:",
+          "options": [
+            "Comparing processes or performance against recognized standards or best practices",
+            "Setting employee salaries",
+            "Preparing tax returns",
+            "Recruiting competitors"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Organizational culture refers to:",
+          "options": [
+            "Shared values, beliefs and norms within an organization",
+            "The organization's physical building",
+            "The company's financial statements",
+            "The number of employees"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Change management is concerned with:",
+          "options": [
+            "Planning and managing organizational transitions effectively",
+            "Preventing all organizational changes",
+            "Eliminating employee participation",
+            "Reducing communication"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Strategic management primarily involves:",
+          "options": [
+            "Formulating and implementing strategies to achieve long-term organizational objectives",
+            "Managing daily attendance only",
+            "Preparing payroll only",
+            "Maintaining office records only"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "slug": "information-technology-it",
+      "school": "Information Technology (IT)",
+      "title": "Information Technology (IT)",
+      "durationMinutes": 120,
+      "questions": [
+        {
+          "tag": null,
+          "text": "The primary objective of research is to:",
+          "options": [
+            "Collect information without analysis",
+            "Generate new knowledge or validate existing knowledge",
+            "Increase the number of publications",
+            "Confirm personal beliefs"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "A well-defined research problem should be:",
+          "options": [
+            "Broad and ambiguous",
+            "Clear, specific and researchable",
+            "Based only on assumptions",
+            "Impossible to measure"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "A hypothesis is:",
+          "options": [
+            "A final research conclusion",
+            "A tentative statement that can be tested",
+            "A literature review",
+            "A research instrument"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "The variable that is manipulated or controlled by the researcher is called:",
+          "options": [
+            "Dependent variable",
+            "Independent variable",
+            "Extraneous variable",
+            "Response variable"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "The main purpose of a literature review is to:",
+          "options": [
+            "Avoid previous research",
+            "Identify existing knowledge and research gaps",
+            "Replace data collection",
+            "Increase the number of pages"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Research based primarily on numerical data is called:",
+          "options": [
+            "Qualitative research",
+            "Quantitative research",
+            "Historical research",
+            "Narrative research"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which of the following is a probability sampling method?",
+          "options": [
+            "Convenience sampling",
+            "Purposive sampling",
+            "Simple random sampling",
+            "Judgment sampling"
+          ],
+          "correct": 2
+        },
+        {
+          "tag": null,
+          "text": "Stratified sampling involves:",
+          "options": [
+            "Selecting respondents based only on convenience",
+            "Dividing the population into subgroups or strata",
+            "Selecting only experts",
+            "Selecting participants through referrals"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "A questionnaire is primarily a:",
+          "options": [
+            "Data collection instrument",
+            "Data analysis technique",
+            "Sampling method",
+            "Statistical test"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Primary data are:",
+          "options": [
+            "Data collected directly by the researcher",
+            "Data obtained from published books only",
+            "Data obtained from previous research",
+            "Data obtained from government reports only"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which is an example of secondary data?",
+          "options": [
+            "Responses from a new survey",
+            "Published government statistics",
+            "Data from a newly conducted interview",
+            "Experimental observations"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Reliability of a research instrument refers to:",
+          "options": [
+            "Its cost",
+            "Its consistency of measurement",
+            "Its length",
+            "Its visual appearance"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Validity refers to whether:",
+          "options": [
+            "The instrument measures what it is intended to measure",
+            "The questionnaire is lengthy",
+            "The sample is large",
+            "Data are collected quickly"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which measurement scale has categories without a meaningful order?",
+          "options": [
+            "Nominal",
+            "Ordinal",
+            "Interval",
+            "Ratio"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "The arithmetic mean is calculated by:",
+          "options": [
+            "Selecting the middle value",
+            "Adding all observations and dividing by their number",
+            "Selecting the most frequent value",
+            "Subtracting the minimum from the maximum"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "The median is:",
+          "options": [
+            "The most frequently occurring value",
+            "The arithmetic average",
+            "The middle value in an ordered dataset",
+            "The largest value"
+          ],
+          "correct": 2
+        },
+        {
+          "tag": null,
+          "text": "The mode is:",
+          "options": [
+            "The middle value",
+            "The most frequently occurring value",
+            "The average value",
+            "The smallest value"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Standard deviation measures:",
+          "options": [
+            "Central tendency",
+            "Dispersion",
+            "Correlation",
+            "Validity"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Correlation measures:",
+          "options": [
+            "Causation",
+            "The degree of relationship between variables",
+            "Sample size",
+            "Research reliability"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "A correlation coefficient of +1 indicates:",
+          "options": [
+            "Perfect positive correlation",
+            "Perfect negative correlation",
+            "No correlation",
+            "Weak correlation"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "The null hypothesis generally states that:",
+          "options": [
+            "A significant relationship exists",
+            "No significant relationship or difference exists",
+            "The research is invalid",
+            "The sample is biased"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "A p-value is used to:",
+          "options": [
+            "Determine the population size",
+            "Assess evidence against the null hypothesis",
+            "Calculate the median",
+            "Select a research topic"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Plagiarism refers to:",
+          "options": [
+            "Collecting primary data",
+            "Using another person's work or ideas without proper acknowledgment",
+            "Conducting an experiment",
+            "Publishing original findings"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Research ethics emphasizes:",
+          "options": [
+            "Faster publication",
+            "Responsible and ethical conduct of research",
+            "Larger sample sizes only",
+            "Higher research funding"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Research design refers to:",
+          "options": [
+            "A systematic plan for conducting research",
+            "The final research result",
+            "The reference list",
+            "The research title only SECTION B – RESEARCH APTITUDE Questions 26–40 | 2 Marks Each"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which research method is most appropriate for exploring participants' experiences in depth?",
+          "options": [
+            "In-depth interview",
+            "Census",
+            "Financial analysis",
+            "Random number generation"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which research design is most suitable for examining cause-and-effect relationships?",
+          "options": [
+            "Experimental research",
+            "Historical research",
+            "Descriptive research",
+            "Narrative research"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "A research gap represents:",
+          "options": [
+            "A missing page in a research paper",
+            "An area that has not been adequately investigated",
+            "A statistical calculation",
+            "A sampling error"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which of the following is normally included in a research proposal?",
+          "options": [
+            "Research objectives",
+            "Personal preferences",
+            "Entertainment details",
+            "Unrelated financial information"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "An operational definition describes:",
+          "options": [
+            "How a concept or variable will be measured",
+            "The researcher's biography",
+            "The publication process",
+            "The funding source"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Studying every member of a defined population is called:",
+          "options": [
+            "Sampling",
+            "Census",
+            "Convenience sampling",
+            "Purposive sampling"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which approach can help reduce sampling bias?",
+          "options": [
+            "Random selection",
+            "Selecting only friends",
+            "Selecting only convenient respondents",
+            "Ignoring population characteristics"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "A pilot study is mainly conducted to:",
+          "options": [
+            "Publish the final paper",
+            "Test and refine research procedures and instruments",
+            "Replace the main research study",
+            "Eliminate the literature review"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which of the following is qualitative data?",
+          "options": [
+            "Number of employees",
+            "Employee age",
+            "Employee perceptions of organizational culture",
+            "Monthly salary"
+          ],
+          "correct": 2
+        },
+        {
+          "tag": null,
+          "text": "Which test is commonly used to compare the means of two groups?",
+          "options": [
+            "t-test",
+            "Chi-square test",
+            "Factor analysis",
+            "Cluster analysis"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "A case study generally involves:",
+          "options": [
+            "Detailed investigation of a particular case or unit",
+            "Only numerical calculations",
+            "No data collection",
+            "Only laboratory experiments"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Research credibility can be improved through:",
+          "options": [
+            "Transparent methodology",
+            "Selective reporting",
+            "Data manipulation",
+            "Ignoring contradictory evidence"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "A research article generally includes:",
+          "options": [
+            "Methodology and findings",
+            "Advertisements only",
+            "Personal opinions only",
+            "No references"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which is an example of research misconduct?",
+          "options": [
+            "Proper citation",
+            "Data fabrication",
+            "Peer review",
+            "Informed consent"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Informed consent means:",
+          "options": [
+            "Participants are forced to participate",
+            "Participants voluntarily agree after receiving adequate information",
+            "Participants cannot withdraw",
+            "Participants must disclose all personal information SECTION C – INFORMATION TECHNOLOGY Questions 41–75 | 2 Marks Each"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which data structure follows the Last-In-First-Out principle?",
+          "options": [
+            "Queue",
+            "Stack",
+            "Linked List",
+            "Tree"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which data structure follows the First-In-First-Out principle?",
+          "options": [
+            "Stack",
+            "Queue",
+            "Tree",
+            "Graph"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "The average time complexity of binary search on a sorted array is:",
+          "options": [
+            "O(n)",
+            "O(log n)",
+            "O(n²)",
+            "O(1)"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which sorting algorithm has an average time complexity of O(n log n)?",
+          "options": [
+            "Bubble Sort",
+            "Selection Sort",
+            "Merge Sort",
+            "Linear Search"
+          ],
+          "correct": 2
+        },
+        {
+          "tag": null,
+          "text": "A binary tree in which the left child is smaller and the right child is larger than the parent is called:",
+          "options": [
+            "AVL Tree",
+            "Binary Search Tree",
+            "Heap",
+            "B-Tree"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which of the following is used to uniquely identify a record in a relational database?",
+          "options": [
+            "Foreign Key",
+            "Primary Key",
+            "Composite Attribute",
+            "View"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "SQL stands for:",
+          "options": [
+            "Structured Query Language",
+            "System Query Logic",
+            "Sequential Question Language",
+            "Structured Queue Logic"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which SQL command is used to retrieve data from a database?",
+          "options": [
+            "INSERT",
+            "UPDATE",
+            "SELECT",
+            "DELETE"
+          ],
+          "correct": 2
+        },
+        {
+          "tag": null,
+          "text": "Database normalization primarily aims to:",
+          "options": [
+            "Increase data redundancy",
+            "Reduce redundancy and improve data integrity",
+            "Delete all duplicate records automatically",
+            "Increase storage requirements"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which normal form eliminates repeating groups and ensures atomic values?",
+          "options": [
+            "First Normal Form",
+            "Second Normal Form",
+            "Third Normal Form",
+            "Boyce-Codd Normal Form"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which operating system component manages hardware resources and provides services to applications?",
+          "options": [
+            "Compiler",
+            "Kernel",
+            "Browser",
+            "Database"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "A process waiting for a resource held by another process can be involved in:",
+          "options": [
+            "Compilation",
+            "Deadlock",
+            "Fragmentation",
+            "Scheduling"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Virtual memory allows:",
+          "options": [
+            "Permanent replacement of RAM",
+            "Disk space to be used as an extension of main memory",
+            "Removal of the operating system",
+            "Elimination of secondary storage"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which scheduling algorithm assigns the CPU to the process with the shortest expected execution time?",
+          "options": [
+            "Round Robin",
+            "First Come First Served",
+            "Shortest Job First",
+            "Priority Queue only"
+          ],
+          "correct": 2
+        },
+        {
+          "tag": null,
+          "text": "TCP/IP is primarily associated with:",
+          "options": [
+            "Computer networking",
+            "Database normalization",
+            "Image processing",
+            "Operating system design"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which device forwards packets between different networks?",
+          "options": [
+            "Hub",
+            "Switch",
+            "Router",
+            "Repeater"
+          ],
+          "correct": 2
+        },
+        {
+          "tag": null,
+          "text": "IPv4 addresses are:",
+          "options": [
+            "16 bits",
+            "32 bits",
+            "64 bits",
+            "128 bits"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which protocol is commonly used for secure web communication?",
+          "options": [
+            "HTTP",
+            "FTP",
+            "HTTPS",
+            "Telnet"
+          ],
+          "correct": 2
+        },
+        {
+          "tag": null,
+          "text": "DNS is primarily used to:",
+          "options": [
+            "Encrypt files",
+            "Translate domain names into IP addresses",
+            "Compress data",
+            "Manage databases"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which of the following is a cybersecurity threat?",
+          "options": [
+            "Encryption",
+            "Phishing",
+            "Authentication",
+            "Backup"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "A firewall is primarily used to:",
+          "options": [
+            "Increase processor speed",
+            "Monitor and control network traffic",
+            "Store database records",
+            "Compile programs"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Encryption is used to:",
+          "options": [
+            "Convert data into a protected form",
+            "Delete data permanently",
+            "Increase storage capacity",
+            "Remove network protocols"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which principle of information security ensures that authorized users can access information when needed?",
+          "options": [
+            "Confidentiality",
+            "Integrity",
+            "Availability",
+            "Authentication"
+          ],
+          "correct": 2
+        },
+        {
+          "tag": null,
+          "text": "Artificial Intelligence refers to:",
+          "options": [
+            "Only automated hardware",
+            "Systems capable of performing tasks associated with human intelligence",
+            "Database storage only",
+            "Network routing only"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Machine Learning is a subset of:",
+          "options": [
+            "Artificial Intelligence",
+            "Computer Networking",
+            "Operating Systems",
+            "Database Management"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Supervised learning requires:",
+          "options": [
+            "Unlabeled data only",
+            "Labeled training data",
+            "No training data",
+            "Only reinforcement signals"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which algorithm is commonly used for classification?",
+          "options": [
+            "Decision Tree",
+            "Dijkstra's Algorithm",
+            "Merge Sort",
+            "PageRank only"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Overfitting occurs when a machine learning model:",
+          "options": [
+            "Performs poorly on training data",
+            "Learns the training data too closely and performs poorly on unseen data",
+            "Has no parameters",
+            "Uses no training data"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Cloud computing provides:",
+          "options": [
+            "Computing resources and services over a network, typically the Internet",
+            "Only physical storage devices",
+            "Only desktop applications",
+            "Offline computing exclusively"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which of the following is a cloud service model?",
+          "options": [
+            "SaaS",
+            "HTML",
+            "TCP",
+            "SQL"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Big Data is commonly characterized by:",
+          "options": [
+            "Volume, Velocity and Variety",
+            "Speed, Coding and Storage",
+            "Processing, Programming and Testing",
+            "Security, Software and Hardware"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "IoT stands for:",
+          "options": [
+            "Internet of Technology",
+            "Internet of Things",
+            "Integration of Tools",
+            "Information of Technology"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Blockchain is best described as:",
+          "options": [
+            "A centralized spreadsheet",
+            "A distributed ledger technology",
+            "An operating system",
+            "A programming language"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "In software engineering, Agile methodology emphasizes:",
+          "options": [
+            "Flexible development and iterative delivery",
+            "Avoiding customer feedback",
+            "Completing all documentation before development",
+            "Eliminating testing"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Software testing is primarily performed to:",
+          "options": [
+            "Increase software size",
+            "Identify defects and verify that software meets requirements",
+            "Eliminate documentation",
+            "Reduce the need for software development"
+          ],
+          "correct": 1
+        }
+      ]
+    },
+    {
+      "slug": "healthcare-management",
+      "school": "Healthcare Management",
+      "title": "Healthcare Management",
+      "durationMinutes": 120,
+      "questions": [
+        {
+          "tag": null,
+          "text": "The primary purpose of research is to:",
+          "options": [
+            "Collect maximum data",
+            "Generate new knowledge or validate existing knowledge",
+            "Increase the length of a report",
+            "Confirm personal opinions"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "A research problem should ideally be:",
+          "options": [
+            "Very broad and vague",
+            "Clearly defined and researchable",
+            "Based only on personal opinion",
+            "Impossible to measure"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "A hypothesis is:",
+          "options": [
+            "A proven fact",
+            "A tentative statement that can be tested",
+            "A research report",
+            "A sampling technique"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which of the following is generally considered an independent variable?",
+          "options": [
+            "The outcome being measured",
+            "The variable manipulated or controlled by the researcher",
+            "The error term",
+            "The sample size"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "A literature review primarily helps a researcher to:",
+          "options": [
+            "Avoid reading previous studies",
+            "Identify existing knowledge and research gaps",
+            "Increase the number of references only",
+            "Replace primary research"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which research approach primarily uses numerical data?",
+          "options": [
+            "Qualitative",
+            "Quantitative",
+            "Historical",
+            "Narrative"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which of the following is a probability sampling technique?",
+          "options": [
+            "Convenience sampling",
+            "Purposive sampling",
+            "Simple random sampling",
+            "Judgment sampling"
+          ],
+          "correct": 2
+        },
+        {
+          "tag": null,
+          "text": "In stratified sampling, the population is divided into:",
+          "options": [
+            "Random individuals only",
+            "Homogeneous subgroups or strata",
+            "Experimental groups only",
+            "Research teams"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "A questionnaire is primarily used for:",
+          "options": [
+            "Data collection",
+            "Data storage",
+            "Data encryption",
+            "Literature classification"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Primary data are:",
+          "options": [
+            "Data collected directly by the researcher for the study",
+            "Data obtained only from books",
+            "Data taken from old research papers",
+            "Data published by government agencies only"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Secondary data may be obtained from:",
+          "options": [
+            "Interviews conducted specifically for the study",
+            "Published reports and databases",
+            "Laboratory experiments only",
+            "Direct observation only"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Reliability of a research instrument refers to its:",
+          "options": [
+            "Cost",
+            "Consistency of measurement",
+            "Length",
+            "Appearance"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Validity refers to:",
+          "options": [
+            "Whether an instrument measures what it is intended to measure",
+            "Whether data are collected quickly",
+            "The number of respondents",
+            "The number of questions"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which measurement scale has categories without any inherent order?",
+          "options": [
+            "Nominal",
+            "Ordinal",
+            "Interval",
+            "Ratio"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "The mean is calculated by:",
+          "options": [
+            "Dividing the largest value by the smallest value",
+            "Adding all observations and dividing by the number of observations",
+            "Selecting the middle observation",
+            "Selecting the most frequent observation"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "The median is:",
+          "options": [
+            "The most frequent value",
+            "The arithmetic average",
+            "The middle value in an ordered dataset",
+            "The difference between maximum and minimum"
+          ],
+          "correct": 2
+        },
+        {
+          "tag": null,
+          "text": "The mode represents:",
+          "options": [
+            "The middle value",
+            "The most frequently occurring value",
+            "The average value",
+            "The minimum value"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Standard deviation is a measure of:",
+          "options": [
+            "Central tendency",
+            "Dispersion",
+            "Correlation only",
+            "Sampling technique"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Correlation measures:",
+          "options": [
+            "The cause of a phenomenon",
+            "The degree of relationship between variables",
+            "The size of a population",
+            "The reliability of a questionnaire"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "A correlation coefficient of +1 indicates:",
+          "options": [
+            "Perfect positive relationship",
+            "Perfect negative relationship",
+            "No relationship",
+            "Weak relationship"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "The null hypothesis generally states that:",
+          "options": [
+            "There is a significant relationship or difference",
+            "There is no significant relationship or difference",
+            "The research is invalid",
+            "The sample is biased"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "A p-value is commonly used in hypothesis testing to:",
+          "options": [
+            "Determine the sample size only",
+            "Assess statistical evidence against the null hypothesis",
+            "Calculate the mean",
+            "Identify the research topic"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Plagiarism means:",
+          "options": [
+            "Collecting primary data",
+            "Presenting another person's work or ideas as one's own without proper acknowledgment",
+            "Conducting a survey",
+            "Publishing original research"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Research ethics primarily deals with:",
+          "options": [
+            "Increasing research funding",
+            "Responsible and ethical conduct of research",
+            "Increasing sample size",
+            "Reducing research duration"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "A research design provides:",
+          "options": [
+            "A systematic plan for conducting research",
+            "Only the final results",
+            "Only the bibliography",
+            "Only the questionnaire SECTION B – RESEARCH APTITUDE Questions 26–40 | 2 Marks Each"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "A researcher wants to understand patients' experiences with healthcare services in depth. Which method is most appropriate?",
+          "options": [
+            "In-depth interviews",
+            "Financial statement analysis",
+            "Random number generation",
+            "Inventory analysis"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which research method is most suitable for studying cause-and-effect relationships?",
+          "options": [
+            "Experimental research",
+            "Historical research",
+            "Descriptive research",
+            "Exploratory observation only"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "A research gap refers to:",
+          "options": [
+            "Missing pages in a research paper",
+            "An area that has not been adequately studied or addressed",
+            "A statistical error",
+            "A sampling error only"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which of the following is NOT normally a component of a research proposal?",
+          "options": [
+            "Research objectives",
+            "Research methodology",
+            "Literature review",
+            "Personal entertainment preferences"
+          ],
+          "correct": 3
+        },
+        {
+          "tag": null,
+          "text": "An operational definition explains:",
+          "options": [
+            "How a concept will be measured or observed in a study",
+            "The history of the researcher",
+            "The funding source only",
+            "The publication process"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "If a researcher studies every patient registered in a hospital during a specified period, the study is based on:",
+          "options": [
+            "Sample",
+            "Census",
+            "Convenience sampling",
+            "Snowball sampling"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which of the following can reduce sampling bias?",
+          "options": [
+            "Random selection",
+            "Selecting only friends",
+            "Selecting only convenient respondents",
+            "Ignoring population characteristics"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "A pilot study is conducted mainly to:",
+          "options": [
+            "Publish the final research paper",
+            "Test and refine research instruments and procedures",
+            "Replace the main study",
+            "Eliminate the literature review"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which of the following is an example of qualitative data?",
+          "options": [
+            "Patient age",
+            "Hospital revenue",
+            "Patient experiences regarding quality of care",
+            "Number of hospital beds"
+          ],
+          "correct": 2
+        },
+        {
+          "tag": null,
+          "text": "Which statistical test is commonly used to compare the means of two groups?",
+          "options": [
+            "t-test",
+            "Chi-square test only",
+            "Factor analysis",
+            "Cluster analysis"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "A case study generally involves:",
+          "options": [
+            "Detailed investigation of a particular case or organization",
+            "Only numerical calculations",
+            "Only laboratory experiments",
+            "No data collection"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which of the following improves the credibility of research findings?",
+          "options": [
+            "Transparent methodology",
+            "Selective reporting",
+            "Ignoring contradictory findings",
+            "Manipulating data"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "An academic research article normally includes:",
+          "options": [
+            "Research methodology and findings",
+            "Only advertisements",
+            "Only personal opinions",
+            "No references"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which of the following is an example of research misconduct?",
+          "options": [
+            "Proper citation",
+            "Data fabrication",
+            "Peer review",
+            "Informed consent"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Informed consent means that research participants:",
+          "options": [
+            "Are forced to participate",
+            "Understand the study and voluntarily agree to participate",
+            "Cannot withdraw from the study",
+            "Must disclose private information publicly SECTION C – HEALTHCARE MANAGEMENT Questions 41–75 | 2 Marks Each"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "The primary objective of healthcare management is to:",
+          "options": [
+            "Maximize hospital advertising",
+            "Ensure effective, efficient and quality healthcare delivery",
+            "Increase administrative paperwork",
+            "Reduce patient interaction"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Hospital administration primarily involves:",
+          "options": [
+            "Managing healthcare facilities, resources and services",
+            "Prescribing medicines",
+            "Performing surgical procedures",
+            "Conducting laboratory tests only"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which of the following is a key component of healthcare quality?",
+          "options": [
+            "Patient safety",
+            "Higher paperwork",
+            "Longer waiting time",
+            "Increased administrative complexity"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "The term \"patient-centered care\" emphasizes:",
+          "options": [
+            "Organizational convenience",
+            "Patient needs, preferences and participation in care decisions",
+            "Reduction of patient communication",
+            "Administrative control over patients"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which of the following is a common indicator of hospital efficiency?",
+          "options": [
+            "Average Length of Stay",
+            "Number of advertisements",
+            "Number of hospital employees alone",
+            "Building size"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Average Length of Stay (ALOS) measures:",
+          "options": [
+            "Average time a patient stays in a hospital",
+            "Average cost of medicines",
+            "Average number of doctors per department",
+            "Average patient age"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Bed Occupancy Rate is used to measure:",
+          "options": [
+            "Utilization of available hospital beds",
+            "Number of doctors available",
+            "Patient satisfaction only",
+            "Cost of hospital equipment"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which department is generally responsible for maintaining patient medical records?",
+          "options": [
+            "Medical Records/Health Information Management Department",
+            "Housekeeping Department",
+            "Security Department",
+            "Engineering Department"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Electronic Health Records (EHRs) are primarily used to:",
+          "options": [
+            "Digitally store and manage patient health information",
+            "Replace all healthcare professionals",
+            "Manage hospital parking",
+            "Advertise healthcare services"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Hospital Information Systems are designed primarily to:",
+          "options": [
+            "Support healthcare operations, information management and decision-making",
+            "Eliminate patient records",
+            "Replace clinical judgment",
+            "Manage only hospital security"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Healthcare Human Resource Management includes:",
+          "options": [
+            "Recruitment, training, performance management and retention of healthcare staff",
+            "Procurement of medicines only",
+            "Building maintenance only",
+            "Patient diagnosis"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Workforce planning in healthcare aims to:",
+          "options": [
+            "Ensure the right number and mix of staff are available when needed",
+            "Reduce all healthcare staff",
+            "Eliminate training",
+            "Increase staff turnover"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which of the following is an important factor in reducing healthcare employee turnover?",
+          "options": [
+            "Supportive work environment",
+            "Poor communication",
+            "Excessive workload without support",
+            "Lack of career development"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Healthcare leadership is particularly important because:",
+          "options": [
+            "Healthcare organizations involve complex clinical and administrative systems",
+            "Healthcare does not require teamwork",
+            "Only financial decisions matter",
+            "Patients do not influence service quality"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Healthcare supply chain management includes:",
+          "options": [
+            "Procurement, inventory, storage and distribution of healthcare supplies",
+            "Patient diagnosis",
+            "Staff counselling only",
+            "Hospital marketing only"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "The primary purpose of inventory management in a hospital is to:",
+          "options": [
+            "Ensure availability of necessary supplies while controlling costs",
+            "Maintain excessive stock at all times",
+            "Eliminate procurement procedures",
+            "Increase product wastage"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which of the following is a major concern in pharmaceutical inventory management?",
+          "options": [
+            "Expiry and storage conditions",
+            "Office decoration",
+            "Staff uniforms only",
+            "Hospital advertising"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Healthcare financial management focuses on:",
+          "options": [
+            "Planning, controlling and efficiently utilizing financial resources",
+            "Patient diagnosis",
+            "Clinical treatment decisions only",
+            "Medical record filing only"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "A hospital budget is primarily used to:",
+          "options": [
+            "Plan and control financial resources",
+            "Determine patient diagnoses",
+            "Replace clinical guidelines",
+            "Eliminate financial reporting"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Cost-effectiveness analysis compares:",
+          "options": [
+            "Costs with health outcomes achieved",
+            "Hospital buildings only",
+            "Employee attendance only",
+            "Patient ages only"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Health economics primarily examines:",
+          "options": [
+            "Allocation of scarce resources to meet healthcare needs",
+            "Hospital architecture only",
+            "Medical terminology only",
+            "Clinical diagnosis only"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Universal Health Coverage aims to ensure that:",
+          "options": [
+            "People can access needed health services without financial hardship",
+            "Only private hospitals provide healthcare",
+            "Healthcare is available only to employed people",
+            "All healthcare services are free regardless of resources"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Public health primarily focuses on:",
+          "options": [
+            "Improving the health of populations through prevention and health promotion",
+            "Treating individual patients only",
+            "Hospital construction",
+            "Pharmaceutical marketing"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Primary healthcare emphasizes:",
+          "options": [
+            "Accessible, essential healthcare close to communities",
+            "Only highly specialized surgery",
+            "Only tertiary hospitals",
+            "Cosmetic procedures"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Preventive healthcare aims to:",
+          "options": [
+            "Prevent disease or detect it at an early stage",
+            "Increase hospital admissions",
+            "Replace all clinical services",
+            "Increase treatment costs"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Quality improvement in healthcare is best described as:",
+          "options": [
+            "A continuous effort to improve processes and outcomes",
+            "A one-time inspection",
+            "Reduction of patient feedback",
+            "Elimination of performance measurement"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Clinical audit is primarily used to:",
+          "options": [
+            "Compare clinical practice against defined standards and identify areas for improvement",
+            "Calculate hospital revenue only",
+            "Recruit healthcare employees",
+            "Advertise hospital services"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Patient safety focuses primarily on:",
+          "options": [
+            "Preventing avoidable harm to patients during healthcare delivery",
+            "Increasing hospital revenue",
+            "Reducing patient communication",
+            "Increasing administrative workload"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which of the following is an example of a hospital-acquired infection?",
+          "options": [
+            "An infection acquired during a patient's stay in a healthcare facility",
+            "A genetic disorder",
+            "A congenital condition",
+            "A disease present before birth"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Infection Prevention and Control programs primarily aim to:",
+          "options": [
+            "Prevent and control the spread of infections in healthcare settings",
+            "Increase patient waiting time",
+            "Reduce healthcare staffing",
+            "Increase hospital advertising"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Patient satisfaction is an important healthcare management indicator because it:",
+          "options": [
+            "Reflects patients' perceptions of their healthcare experience",
+            "Measures only hospital revenue",
+            "Replaces clinical outcome measures completely",
+            "Measures only staff attendance"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Accreditation of a healthcare organization generally involves:",
+          "options": [
+            "Assessment against defined quality and safety standards",
+            "Automatic approval without assessment",
+            "Only financial auditing",
+            "Marketing certification"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Healthcare ethics includes principles such as:",
+          "options": [
+            "Autonomy, beneficence, non-maleficence and justice",
+            "Profit, advertising, sales and promotion",
+            "Recruitment, selection, training and payroll",
+            "Production, pricing, packaging and distribution"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Telemedicine refers to:",
+          "options": [
+            "Delivery of healthcare services through telecommunications and digital technologies",
+            "Manufacturing medical equipment",
+            "Hospital building construction",
+            "Manual patient record management"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Strategic management in healthcare primarily involves:",
+          "options": [
+            "Developing and implementing long-term strategies to improve organizational performance and healthcare outcomes",
+            "Managing daily attendance only",
+            "Maintaining medical records only",
+            "Purchasing office furniture only"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "slug": "environmental-science",
+      "school": "Environmental science",
+      "title": "Environmental Science",
+      "durationMinutes": 120,
+      "questions": [
+        {
+          "tag": null,
+          "text": "The primary purpose of research is to:",
+          "options": [
+            "Collect maximum data",
+            "Generate new knowledge or validate existing knowledge",
+            "Increase the length of a report",
+            "Confirm personal opinions"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "A research problem should ideally be:",
+          "options": [
+            "Very broad and vague",
+            "Clearly defined and researchable",
+            "Based only on personal opinion",
+            "Impossible to measure"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "A hypothesis is:",
+          "options": [
+            "A proven fact",
+            "A tentative statement that can be tested",
+            "A research report",
+            "A sampling technique"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which of the following is generally considered an independent variable?",
+          "options": [
+            "The outcome being measured",
+            "The variable manipulated or controlled by the researcher",
+            "The error term",
+            "The sample size"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "A literature review primarily helps a researcher to:",
+          "options": [
+            "Avoid reading previous studies",
+            "Identify existing knowledge and research gaps",
+            "Increase the number of references only",
+            "Replace primary research"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which research approach primarily uses numerical data?",
+          "options": [
+            "Qualitative",
+            "Quantitative",
+            "Historical",
+            "Narrative"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which of the following is a probability sampling technique?",
+          "options": [
+            "Convenience sampling",
+            "Purposive sampling",
+            "Simple random sampling",
+            "Judgment sampling"
+          ],
+          "correct": 2
+        },
+        {
+          "tag": null,
+          "text": "In stratified sampling, the population is divided into:",
+          "options": [
+            "Random individuals only",
+            "Homogeneous subgroups or strata",
+            "Experimental groups only",
+            "Research teams"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "A questionnaire is primarily used for:",
+          "options": [
+            "Data collection",
+            "Data storage",
+            "Data encryption",
+            "Literature classification"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Primary data are:",
+          "options": [
+            "Data collected directly by the researcher for the study",
+            "Data obtained only from books",
+            "Data taken from old research papers",
+            "Data published by government agencies only"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Secondary data may be obtained from:",
+          "options": [
+            "Interviews conducted specifically for the study",
+            "Published reports and databases",
+            "Laboratory experiments only",
+            "Direct observation only"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Reliability of a research instrument refers to its:",
+          "options": [
+            "Cost",
+            "Consistency of measurement",
+            "Length",
+            "Appearance"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Validity refers to:",
+          "options": [
+            "Whether an instrument measures what it is intended to measure",
+            "Whether data are collected quickly",
+            "The number of respondents",
+            "The number of questions"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which scale has categories without any inherent order?",
+          "options": [
+            "Nominal",
+            "Ordinal",
+            "Interval",
+            "Ratio"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "The mean is calculated by:",
+          "options": [
+            "Dividing the largest value by the smallest value",
+            "Adding all observations and dividing by the number of observations",
+            "Selecting the middle observation",
+            "Selecting the most frequent observation"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "The median is:",
+          "options": [
+            "The most frequent value",
+            "The arithmetic average",
+            "The middle value in an ordered dataset",
+            "The difference between maximum and minimum"
+          ],
+          "correct": 2
+        },
+        {
+          "tag": null,
+          "text": "The mode represents:",
+          "options": [
+            "The middle value",
+            "The most frequently occurring value",
+            "The average value",
+            "The minimum value"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Standard deviation is a measure of:",
+          "options": [
+            "Central tendency",
+            "Dispersion",
+            "Correlation only",
+            "Sampling technique"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Correlation measures:",
+          "options": [
+            "The cause of a phenomenon",
+            "The degree of relationship between variables",
+            "The size of a population",
+            "The reliability of a questionnaire"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "A correlation coefficient of +1 indicates:",
+          "options": [
+            "Perfect positive relationship",
+            "Perfect negative relationship",
+            "No relationship",
+            "Weak relationship"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "The null hypothesis generally states that:",
+          "options": [
+            "There is a significant relationship or difference",
+            "There is no significant relationship or difference",
+            "The research is invalid",
+            "The sample is biased"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "A p-value is commonly used in hypothesis testing to:",
+          "options": [
+            "Determine the sample size only",
+            "Assess statistical evidence against the null hypothesis",
+            "Calculate the mean",
+            "Identify the research topic"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Plagiarism means:",
+          "options": [
+            "Collecting primary data",
+            "Presenting another person's work or ideas as one's own without proper acknowledgment",
+            "Conducting a survey",
+            "Publishing original research"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Research ethics primarily deals with:",
+          "options": [
+            "Increasing research funding",
+            "Responsible and ethical conduct of research",
+            "Increasing sample size",
+            "Reducing research duration"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "A research design provides:",
+          "options": [
+            "A systematic plan for conducting research",
+            "Only the final results",
+            "Only the bibliography",
+            "Only the questionnaire SECTION B – RESEARCH APTITUDE Questions 26–40 | 2 Marks Each"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "A researcher wants to understand people's experiences regarding environmental pollution in depth. Which method is most appropriate?",
+          "options": [
+            "In-depth interviews",
+            "Random number generation",
+            "Financial statement analysis",
+            "Census only"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which research method is most suitable for studying cause-and-effect relationships?",
+          "options": [
+            "Experimental research",
+            "Historical research",
+            "Descriptive research",
+            "Exploratory observation only"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "A research gap refers to:",
+          "options": [
+            "Missing pages in a research paper",
+            "An area that has not been adequately studied or addressed",
+            "A statistical error",
+            "A sampling error only"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which of the following is NOT normally a component of a research proposal?",
+          "options": [
+            "Research objectives",
+            "Research methodology",
+            "Literature review",
+            "Personal entertainment preferences"
+          ],
+          "correct": 3
+        },
+        {
+          "tag": null,
+          "text": "An operational definition explains:",
+          "options": [
+            "How a concept will be measured or observed in a study",
+            "The history of the researcher",
+            "The funding source only",
+            "The publication process"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "If a researcher studies every household in a defined geographical area, the study is based on:",
+          "options": [
+            "Sample",
+            "Census",
+            "Convenience sampling",
+            "Snowball sampling"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which of the following can reduce sampling bias?",
+          "options": [
+            "Random selection",
+            "Selecting only friends",
+            "Selecting only convenient respondents",
+            "Ignoring population characteristics"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "A pilot study is conducted mainly to:",
+          "options": [
+            "Publish the final research paper",
+            "Test and refine research instruments and procedures",
+            "Replace the main study",
+            "Eliminate the literature review"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which of the following is an example of qualitative environmental data?",
+          "options": [
+            "PM2.5 concentration",
+            "Annual rainfall in millimetres",
+            "Community perceptions about water pollution",
+            "Number of trees per hectare"
+          ],
+          "correct": 2
+        },
+        {
+          "tag": null,
+          "text": "Which statistical test is commonly used to compare the means of two independent groups?",
+          "options": [
+            "t-test",
+            "Chi-square test only",
+            "Factor analysis",
+            "Cluster analysis"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "A case study generally involves:",
+          "options": [
+            "Detailed investigation of a particular case or unit",
+            "Only numerical calculations",
+            "Only laboratory experiments",
+            "No data collection"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which of the following improves the credibility of research findings?",
+          "options": [
+            "Transparent methodology",
+            "Selective reporting",
+            "Ignoring contradictory findings",
+            "Manipulating data"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "An academic research paper normally includes:",
+          "options": [
+            "Methodology, results and discussion",
+            "Only advertisements",
+            "Only personal opinions",
+            "No references"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which of the following is an example of research misconduct?",
+          "options": [
+            "Proper citation",
+            "Data fabrication",
+            "Peer review",
+            "Informed consent"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Informed consent means that participants:",
+          "options": [
+            "Are forced to participate",
+            "Understand the study and voluntarily agree to participate",
+            "Cannot withdraw from the study",
+            "Must disclose private information publicly SECTION C – ENVIRONMENTAL SCIENCE Questions 41–75 | 2 Marks Each"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "The term ecosystem refers to:",
+          "options": [
+            "Only living organisms",
+            "Only non-living components",
+            "A community of organisms interacting with their physical environment",
+            "A single population"
+          ],
+          "correct": 2
+        },
+        {
+          "tag": null,
+          "text": "Which of the following is an abiotic component of an ecosystem?",
+          "options": [
+            "Plants",
+            "Animals",
+            "Microorganisms",
+            "Temperature"
+          ],
+          "correct": 3
+        },
+        {
+          "tag": null,
+          "text": "Primary producers in most terrestrial ecosystems are:",
+          "options": [
+            "Herbivores",
+            "Green plants",
+            "Carnivores",
+            "Decomposers"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "The transfer of energy in an ecosystem is generally:",
+          "options": [
+            "Cyclic",
+            "Unidirectional",
+            "Completely reversible",
+            "Independent of producers"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which ecological pyramid is always upright?",
+          "options": [
+            "Pyramid of biomass",
+            "Pyramid of numbers",
+            "Pyramid of energy",
+            "All pyramids"
+          ],
+          "correct": 2
+        },
+        {
+          "tag": null,
+          "text": "Biodiversity includes diversity at which levels?",
+          "options": [
+            "Genetic, species and ecosystem levels",
+            "Only species level",
+            "Only genetic level",
+            "Only ecosystem level"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "A species that has a disproportionately large effect on its ecosystem relative to its abundance is called a:",
+          "options": [
+            "Pioneer species",
+            "Keystone species",
+            "Exotic species",
+            "Indicator species"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "The main cause of eutrophication in freshwater bodies is excessive input of:",
+          "options": [
+            "Oxygen and hydrogen",
+            "Nitrogen and phosphorus nutrients",
+            "Calcium and magnesium",
+            "Carbon monoxide and methane"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Biomagnification refers to:",
+          "options": [
+            "Increase in population size",
+            "Increase in concentration of certain pollutants at successive trophic levels",
+            "Increase in biodiversity",
+            "Decomposition of organic matter"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which of the following is a greenhouse gas?",
+          "options": [
+            "Oxygen",
+            "Nitrogen",
+            "Carbon dioxide",
+            "Argon"
+          ],
+          "correct": 2
+        },
+        {
+          "tag": null,
+          "text": "The enhanced greenhouse effect is primarily associated with:",
+          "options": [
+            "Increased atmospheric concentrations of greenhouse gases",
+            "Decreased solar radiation",
+            "Increased oxygen concentration",
+            "Reduced atmospheric pressure only"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "The major anthropogenic source of atmospheric carbon dioxide is:",
+          "options": [
+            "Photosynthesis",
+            "Fossil fuel combustion",
+            "Nitrogen fixation",
+            "Ocean evaporation"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Acid rain is mainly associated with atmospheric emissions of:",
+          "options": [
+            "Sulphur dioxide and nitrogen oxides",
+            "Oxygen and hydrogen",
+            "Methane and helium",
+            "Carbon monoxide only"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "The pH of acid rain is generally:",
+          "options": [
+            "Higher than 9",
+            "Exactly 7",
+            "Lower than 5.6",
+            "Exactly 10"
+          ],
+          "correct": 2
+        },
+        {
+          "tag": null,
+          "text": "The ozone layer is primarily located in the:",
+          "options": [
+            "Troposphere",
+            "Stratosphere",
+            "Mesosphere",
+            "Thermosphere"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Stratospheric ozone is important because it absorbs much of the Sun's:",
+          "options": [
+            "Infrared radiation",
+            "Ultraviolet radiation",
+            "Microwave radiation",
+            "Radio waves"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which group of chemicals has historically contributed significantly to stratospheric ozone depletion?",
+          "options": [
+            "Chlorofluorocarbons",
+            "Carbonates",
+            "Silicates",
+            "Sulphates"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Photochemical smog is formed mainly through reactions involving:",
+          "options": [
+            "Nitrogen oxides and volatile organic compounds in sunlight",
+            "Oxygen and nitrogen in darkness",
+            "Water vapour alone",
+            "Carbon dioxide and oxygen only"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "PM2.5 refers to particulate matter with an aerodynamic diameter of:",
+          "options": [
+            "25 micrometres or less",
+            "2.5 micrometres or less",
+            "0.25 millimetres or less",
+            "250 micrometres or less"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Biochemical Oxygen Demand (BOD) is an indicator of:",
+          "options": [
+            "Organic pollution in water",
+            "Soil salinity",
+            "Atmospheric pressure",
+            "Noise pollution"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Chemical Oxygen Demand (COD) measures:",
+          "options": [
+            "The oxygen equivalent required to chemically oxidize substances in water",
+            "The amount of nitrogen in air",
+            "The pH of soil",
+            "The concentration of suspended solids only"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Dissolved oxygen in a healthy aquatic ecosystem is generally:",
+          "options": [
+            "Beneficial for aquatic organisms",
+            "Always harmful",
+            "Unrelated to aquatic life",
+            "Equal to zero"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which process is commonly used for the removal of suspended solids from wastewater?",
+          "options": [
+            "Sedimentation",
+            "Photosynthesis",
+            "Evaporation only",
+            "Combustion"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Activated sludge treatment is primarily a:",
+          "options": [
+            "Biological wastewater treatment process",
+            "Physical air pollution process",
+            "Solid waste incineration process",
+            "Soil conservation method"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Composting is a process used for:",
+          "options": [
+            "Biological decomposition of biodegradable organic waste",
+            "Melting metals",
+            "Removing atmospheric gases",
+            "Producing radioactive materials"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "The waste management hierarchy generally gives highest priority to:",
+          "options": [
+            "Disposal",
+            "Waste prevention and reduction",
+            "Landfilling",
+            "Incineration"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "A sanitary landfill is designed primarily to:",
+          "options": [
+            "Dispose of waste in a controlled and environmentally managed manner",
+            "Increase groundwater pollution",
+            "Burn all waste in open air",
+            "Store only hazardous gases"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which of the following is a renewable source of energy?",
+          "options": [
+            "Coal",
+            "Petroleum",
+            "Solar energy",
+            "Natural gas"
+          ],
+          "correct": 2
+        },
+        {
+          "tag": null,
+          "text": "The process of converting solar radiation directly into electricity uses:",
+          "options": [
+            "Photovoltaic cells",
+            "Turbines only",
+            "Anaerobic digesters",
+            "Electrostatic precipitators"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Environmental Impact Assessment (EIA) is primarily conducted to:",
+          "options": [
+            "Assess potential environmental effects of proposed projects",
+            "Calculate employee salaries",
+            "Determine stock-market prices",
+            "Replace environmental monitoring"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "The principle that the polluter should bear the cost of pollution is known as:",
+          "options": [
+            "Precautionary principle",
+            "Polluter Pays Principle",
+            "Subsidiarity principle",
+            "Equity principle"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Sustainable development is commonly defined as development that:",
+          "options": [
+            "Focuses only on economic growth",
+            "Meets present needs without compromising future generations' ability to meet their needs",
+            "Eliminates all industrial activity",
+            "Uses only non-renewable resources"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Remote sensing is particularly useful in environmental studies for:",
+          "options": [
+            "Collecting information about Earth's surface without direct physical contact",
+            "Measuring employee productivity",
+            "Conducting laboratory experiments only",
+            "Determining chemical formulas manually"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Geographic Information Systems (GIS) are primarily used for:",
+          "options": [
+            "Capturing, storing, analysing and displaying geographically referenced data",
+            "Measuring blood pressure",
+            "Producing chemical fertilizers",
+            "Performing only financial calculations"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Climate change adaptation refers to:",
+          "options": [
+            "Measures taken to reduce vulnerability to actual or expected climate impacts",
+            "Increasing greenhouse gas emissions",
+            "Eliminating all renewable energy",
+            "Preventing all natural climate variability"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "slug": "commerce-management",
+      "school": "Commerce & Management",
+      "title": "Commerce & Management",
+      "durationMinutes": 120,
+      "questions": [
+        {
+          "tag": null,
+          "text": "The primary objective of research is to:",
+          "options": [
+            "Collect maximum information",
+            "Generate new knowledge or validate existing knowledge",
+            "Increase the length of a report",
+            "Support personal opinions"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "A good research problem should be:",
+          "options": [
+            "Vague and broad",
+            "Clearly defined and researchable",
+            "Based only on personal experience",
+            "Impossible to measure"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "A hypothesis is:",
+          "options": [
+            "A proven fact",
+            "A tentative statement that can be empirically tested",
+            "A research report",
+            "A sampling method"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "The variable that is manipulated or controlled by the researcher is called:",
+          "options": [
+            "Dependent variable",
+            "Independent variable",
+            "Extraneous variable",
+            "Control variable"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "The major purpose of a literature review is to:",
+          "options": [
+            "Increase the number of pages in a thesis",
+            "Identify existing knowledge and research gaps",
+            "Avoid conducting primary research",
+            "Replace data analysis"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Research that primarily uses numerical data is known as:",
+          "options": [
+            "Qualitative research",
+            "Quantitative research",
+            "Historical research",
+            "Narrative research"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which of the following is a probability sampling method?",
+          "options": [
+            "Convenience sampling",
+            "Purposive sampling",
+            "Simple random sampling",
+            "Judgment sampling"
+          ],
+          "correct": 2
+        },
+        {
+          "tag": null,
+          "text": "In stratified sampling, the population is divided into:",
+          "options": [
+            "Random individuals",
+            "Homogeneous subgroups or strata",
+            "Experimental groups only",
+            "Research teams"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "A questionnaire is primarily a tool for:",
+          "options": [
+            "Data collection",
+            "Data storage",
+            "Data encryption",
+            "Data publication"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Primary data are:",
+          "options": [
+            "Data collected directly by the researcher for a specific study",
+            "Data obtained only from books",
+            "Data taken from previous research papers",
+            "Data published by government agencies only"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which is an example of secondary data?",
+          "options": [
+            "Data collected through a new interview",
+            "Data obtained from published government reports",
+            "Data collected through direct observation",
+            "Data obtained from an experiment"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Reliability of a research instrument refers to:",
+          "options": [
+            "Its cost",
+            "Consistency of measurement",
+            "Number of questions",
+            "Appearance of the instrument"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Validity refers to:",
+          "options": [
+            "Whether an instrument measures what it is intended to measure",
+            "Whether data are collected quickly",
+            "The size of the sample",
+            "The length of the questionnaire"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which measurement scale classifies data into categories without any order?",
+          "options": [
+            "Nominal",
+            "Ordinal",
+            "Interval",
+            "Ratio"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "The arithmetic mean is calculated by:",
+          "options": [
+            "Selecting the middle value",
+            "Adding all observations and dividing by the number of observations",
+            "Selecting the most frequent value",
+            "Subtracting the smallest value from the largest"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "The median is:",
+          "options": [
+            "The most frequent observation",
+            "The arithmetic average",
+            "The middle value in an ordered dataset",
+            "The highest value"
+          ],
+          "correct": 2
+        },
+        {
+          "tag": null,
+          "text": "The mode is:",
+          "options": [
+            "The middle value",
+            "The most frequently occurring value",
+            "The average value",
+            "The lowest value"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Standard deviation measures:",
+          "options": [
+            "Central tendency",
+            "Dispersion",
+            "Validity",
+            "Sampling error only"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Correlation measures:",
+          "options": [
+            "Cause and effect",
+            "The degree of relationship between variables",
+            "Sample size",
+            "Research validity"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "A correlation coefficient of +1 indicates:",
+          "options": [
+            "Perfect positive correlation",
+            "Perfect negative correlation",
+            "No correlation",
+            "Weak correlation"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "The null hypothesis generally states that:",
+          "options": [
+            "A significant relationship exists",
+            "No significant relationship or difference exists",
+            "The research is invalid",
+            "The sample is biased"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "A p-value is used in hypothesis testing to:",
+          "options": [
+            "Calculate sample size only",
+            "Assess statistical evidence against the null hypothesis",
+            "Calculate the mean",
+            "Identify the research problem"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Plagiarism refers to:",
+          "options": [
+            "Collecting primary data",
+            "Using another person's work or ideas without proper acknowledgment",
+            "Conducting a survey",
+            "Publishing original findings"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Research ethics primarily concerns:",
+          "options": [
+            "Increasing research funding",
+            "Responsible and ethical conduct of research",
+            "Increasing sample size",
+            "Reducing research duration"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "A research design provides:",
+          "options": [
+            "A systematic plan for conducting research",
+            "Only the final results",
+            "Only the references",
+            "Only the questionnaire SECTION B – RESEARCH APTITUDE Questions 26–40 | 2 Marks Each"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "A researcher wants to understand the experiences of employees in depth. Which method is most appropriate?",
+          "options": [
+            "In-depth interviews",
+            "Random number generation",
+            "Financial statement analysis",
+            "Census only"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which research design is most appropriate for examining cause-and-effect relationships?",
+          "options": [
+            "Experimental research",
+            "Historical research",
+            "Descriptive research",
+            "Exploratory research"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "A research gap refers to:",
+          "options": [
+            "Missing pages in a research paper",
+            "An area that has not been adequately studied",
+            "A calculation error",
+            "A sampling error only"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which of the following is generally NOT a component of a research proposal?",
+          "options": [
+            "Research objectives",
+            "Literature review",
+            "Research methodology",
+            "Personal entertainment preferences"
+          ],
+          "correct": 3
+        },
+        {
+          "tag": null,
+          "text": "An operational definition explains:",
+          "options": [
+            "How a concept will be measured or observed",
+            "The researcher's personal background",
+            "The funding source",
+            "The publication process"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Studying every member of a defined population is known as:",
+          "options": [
+            "Sampling",
+            "Census",
+            "Convenience sampling",
+            "Snowball sampling"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which method can help reduce sampling bias?",
+          "options": [
+            "Random selection",
+            "Selecting only friends",
+            "Selecting convenient respondents only",
+            "Ignoring population characteristics"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "A pilot study is primarily conducted to:",
+          "options": [
+            "Publish the final research paper",
+            "Test and refine research instruments and procedures",
+            "Replace the main research study",
+            "Eliminate the literature review"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Which of the following is qualitative data?",
+          "options": [
+            "Age of respondents",
+            "Monthly income",
+            "Opinions about organizational culture",
+            "Number of employees"
+          ],
+          "correct": 2
+        },
+        {
+          "tag": null,
+          "text": "Which statistical test is commonly used to compare the means of two groups?",
+          "options": [
+            "t-test",
+            "Chi-square test",
+            "Factor analysis",
+            "Cluster analysis"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "A case study involves:",
+          "options": [
+            "Detailed investigation of a particular case or unit",
+            "Only numerical calculations",
+            "Only laboratory experiments",
+            "No data collection"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which practice improves the credibility of research findings?",
+          "options": [
+            "Transparent methodology",
+            "Selective reporting",
+            "Data manipulation",
+            "Ignoring contradictory findings"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "A scholarly research article generally includes:",
+          "options": [
+            "Methodology, analysis and findings",
+            "Only advertisements",
+            "Only personal opinions",
+            "No references"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which is an example of research misconduct?",
+          "options": [
+            "Proper citation",
+            "Data fabrication",
+            "Peer review",
+            "Informed consent"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Informed consent means that research participants:",
+          "options": [
+            "Are forced to participate",
+            "Understand the study and voluntarily agree to participate",
+            "Cannot withdraw from the study",
+            "Must disclose private information publicly SECTION C – COMMERCE & MANAGEMENT Questions 41–75 | 2 Marks Each"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "The primary functions of management include:",
+          "options": [
+            "Planning, organizing, staffing, directing and controlling",
+            "Selling, purchasing and advertising only",
+            "Manufacturing and transportation only",
+            "Recruitment and retirement only"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Who is widely regarded as the father of Scientific Management?",
+          "options": [
+            "Henri Fayol",
+            "F.W. Taylor",
+            "Elton Mayo",
+            "Peter Drucker"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Henri Fayol is associated with:",
+          "options": [
+            "Principles of Management",
+            "Two-Factor Theory",
+            "Hierarchy of Needs",
+            "Theory X and Theory Y"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "SWOT analysis consists of:",
+          "options": [
+            "Strengths, Weaknesses, Opportunities and Threats",
+            "Systems, Work, Operations and Technology",
+            "Strategy, Workforce, Organization and Training",
+            "Sales, Wealth, Output and Targets"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Which of the following is an external factor in SWOT analysis?",
+          "options": [
+            "Strength",
+            "Weakness",
+            "Opportunity",
+            "Internal capability"
+          ],
+          "correct": 2
+        },
+        {
+          "tag": null,
+          "text": "Span of control refers to:",
+          "options": [
+            "Number of employees directly supervised by a manager",
+            "Number of departments in an organization",
+            "Number of products sold",
+            "Total organizational revenue"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Delegation refers to:",
+          "options": [
+            "Transfer of authority to a subordinate while retaining ultimate accountability",
+            "Elimination of responsibility",
+            "Removal of managerial authority",
+            "Complete centralization of decisions"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "According to Maslow, the highest level of need is:",
+          "options": [
+            "Safety needs",
+            "Social needs",
+            "Esteem needs",
+            "Self-actualization"
+          ],
+          "correct": 3
+        },
+        {
+          "tag": null,
+          "text": "According to Herzberg's Two-Factor Theory, which is a hygiene factor?",
+          "options": [
+            "Achievement",
+            "Recognition",
+            "Salary",
+            "Advancement"
+          ],
+          "correct": 2
+        },
+        {
+          "tag": null,
+          "text": "Transformational leadership primarily focuses on:",
+          "options": [
+            "Inspiring and developing followers",
+            "Avoiding organizational change",
+            "Strictly enforcing existing procedures",
+            "Eliminating employee participation"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Human Resource Management primarily deals with:",
+          "options": [
+            "Managing people and their contribution to organizational objectives",
+            "Managing machines only",
+            "Managing raw materials only",
+            "Managing physical infrastructure only"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Recruitment refers to:",
+          "options": [
+            "Attracting potential candidates for a job",
+            "Selecting the final candidate only",
+            "Training existing employees",
+            "Retiring employees"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Performance appraisal is primarily used to:",
+          "options": [
+            "Systematically evaluate employee performance",
+            "Determine product prices",
+            "Calculate market share",
+            "Prepare tax returns"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "The traditional marketing mix consists of:",
+          "options": [
+            "2 Ps",
+            "3 Ps",
+            "4 Ps",
+            "8 Ps"
+          ],
+          "correct": 2
+        },
+        {
+          "tag": null,
+          "text": "The traditional 4 Ps of marketing are:",
+          "options": [
+            "Product, Price, Place and Promotion",
+            "People, Process, Planning and Profit",
+            "Product, People, Performance and Planning",
+            "Price, People, Profit and Process"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Market segmentation means:",
+          "options": [
+            "Dividing a market into identifiable groups of customers",
+            "Selling one product to everyone",
+            "Eliminating competitors",
+            "Increasing production capacity"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Brand equity refers to:",
+          "options": [
+            "The value associated with a brand",
+            "The physical size of a company",
+            "The number of employees",
+            "The office space of an organization"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Financial management is primarily concerned with:",
+          "options": [
+            "Procurement and effective utilization of financial resources",
+            "Recruitment only",
+            "Product packaging",
+            "Employee counselling only"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Working capital is calculated as:",
+          "options": [
+            "Current Assets – Current Liabilities",
+            "Total Assets – Fixed Assets",
+            "Sales – Expenses",
+            "Revenue – Capital"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "The balance sheet shows:",
+          "options": [
+            "Assets, liabilities and owner's equity at a specific point in time",
+            "Only sales revenue",
+            "Only cash transactions",
+            "Only operating expenses"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "The break-even point occurs when:",
+          "options": [
+            "Total revenue equals total cost",
+            "Profit is maximum",
+            "Sales are zero",
+            "Fixed cost is zero"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "The accounting equation is:",
+          "options": [
+            "Assets = Liabilities + Capital",
+            "Assets = Revenue + Expenses",
+            "Capital = Assets + Liabilities",
+            "Revenue = Assets + Expenses"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Depreciation refers to:",
+          "options": [
+            "Increase in the value of an asset",
+            "Systematic allocation of the depreciable amount of an asset over its useful life",
+            "Increase in working capital",
+            "Reduction in liabilities"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "The primary objective of financial accounting is to:",
+          "options": [
+            "Provide financial information to users for decision-making",
+            "Recruit employees",
+            "Develop marketing strategies",
+            "Manage production"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "A cash flow statement provides information about:",
+          "options": [
+            "Cash inflows and cash outflows during a period",
+            "Only profits earned",
+            "Only assets owned",
+            "Only liabilities"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Corporate governance primarily deals with:",
+          "options": [
+            "Systems by which organizations are directed and controlled",
+            "Production scheduling",
+            "Employee recruitment only",
+            "Advertising strategy"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Corporate Social Responsibility (CSR) refers to:",
+          "options": [
+            "Organizational responsibility toward society and stakeholders",
+            "Maximizing sales only",
+            "Reducing employee benefits",
+            "Eliminating business regulations"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Entrepreneurship primarily involves:",
+          "options": [
+            "Identifying opportunities and creating value through innovation and risk-taking",
+            "Avoiding all forms of risk",
+            "Managing only existing businesses",
+            "Maintaining government records"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Supply chain management involves:",
+          "options": [
+            "Managing the flow of goods, services, information and resources from suppliers to customers",
+            "Managing employees only",
+            "Managing advertisements only",
+            "Managing financial statements only"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Total Quality Management emphasizes:",
+          "options": [
+            "Continuous improvement and customer satisfaction",
+            "Cost reduction at any cost",
+            "Production without quality control",
+            "Individual performance only"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "In economics, demand generally refers to:",
+          "options": [
+            "Desire for a product without purchasing power",
+            "Quantity of a product consumers are willing and able to purchase at a given price",
+            "Total production of a firm",
+            "Total supply in a market"
+          ],
+          "correct": 1
+        },
+        {
+          "tag": null,
+          "text": "Inflation refers to:",
+          "options": [
+            "A sustained increase in the general price level",
+            "A fall in employment only",
+            "A decrease in money supply only",
+            "A reduction in production costs"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "GDP measures:",
+          "options": [
+            "The market value of final goods and services produced within a country during a period",
+            "Only government expenditure",
+            "Only exports",
+            "Only household income"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "In the context of business, a merger occurs when:",
+          "options": [
+            "Two or more businesses combine into a single entity or integrated organization",
+            "A company closes permanently",
+            "A company reduces its workforce",
+            "A firm changes its product packaging"
+          ],
+          "correct": 0
+        },
+        {
+          "tag": null,
+          "text": "Strategic management primarily involves:",
+          "options": [
+            "Formulating and implementing strategies to achieve long-term organizational objectives",
+            "Managing daily attendance only",
+            "Preparing payroll only",
+            "Maintaining office records only"
+          ],
+          "correct": 0
+        }
+      ]
+    }
+  ],
+  "issues": []
+}

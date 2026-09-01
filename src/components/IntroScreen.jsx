@@ -1,15 +1,14 @@
 import orchidLogo from "../assets/orchid-logo.svg";
-import { QUESTIONS, ASSESSMENT_DURATION_SECONDS } from "../data/questions";
 
-export default function IntroScreen({ onStart }) {
-  const minutes = ASSESSMENT_DURATION_SECONDS / 60;
+export default function IntroScreen({ onStart, title, questionCount, durationSeconds }) {
+  const minutes = durationSeconds / 60;
 
   return (
     <div className="screen">
       <div className="intro-card">
         <img src={orchidLogo} alt="Orchid University" className="intro-logo" />
         <div className="intro-eyebrow">Doctoral Candidate Assessment</div>
-        <h1 className="intro-title">Research Aptitude &amp; Reasoning Assessment</h1>
+        <h1 className="intro-title">{title}</h1>
         <p className="intro-sub">
           This timed assessment evaluates quantitative reasoning, experimental logic, and
           research judgment. Complete it in one sitting — your progress cannot be saved and
@@ -18,7 +17,7 @@ export default function IntroScreen({ onStart }) {
 
         <div className="intro-facts">
           <div className="intro-fact">
-            <div className="intro-fact-num">{QUESTIONS.length}</div>
+            <div className="intro-fact-num">{questionCount}</div>
             <div className="intro-fact-label">Questions</div>
           </div>
           <div className="intro-fact">
