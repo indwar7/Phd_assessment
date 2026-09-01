@@ -57,8 +57,8 @@ export default function LoginScreen({ onLoggedIn }) {
               </svg>
               <input
                 type="text"
-                autoComplete="username"
-                placeholder="e.g. adityasingh1"
+                autoComplete="off"
+                placeholder="Enter your login ID"
                 value={loginId}
                 onChange={(e) => setLoginId(e.target.value)}
                 required
@@ -77,7 +77,7 @@ export default function LoginScreen({ onLoggedIn }) {
               </svg>
               <input
                 type={showPassword ? "text" : "password"}
-                autoComplete="current-password"
+                autoComplete="off"
                 placeholder="Enter your password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
