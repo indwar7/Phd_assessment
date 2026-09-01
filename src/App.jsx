@@ -133,6 +133,11 @@ export default function App() {
     }
   };
 
+  const handleEndAssessment = () => {
+    if (locked) return;
+    finishAssessment(false, timeLeft);
+  };
+
   if (phase === PHASES.LOGIN) {
     return <LoginScreen onLoggedIn={handleLoggedIn} />;
   }
@@ -184,6 +189,7 @@ export default function App() {
       onJump={handleJump}
       onBack={handleBack}
       onNext={handleNext}
+      onEndAssessment={handleEndAssessment}
     />
   );
 }

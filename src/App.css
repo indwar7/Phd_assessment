@@ -66,6 +66,24 @@
   font-weight: 600;
 }
 
+.topbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.end-btn {
+  background: var(--critical);
+  border-color: var(--critical);
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 12.5px;
+}
+
+.end-btn:hover:not(:disabled) {
+  filter: brightness(1.08);
+}
+
 /* ---- Layout ---- */
 .layout {
   flex: 1;

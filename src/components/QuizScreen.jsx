@@ -16,8 +16,18 @@ export default function QuizScreen({
   onJump,
   onBack,
   onNext,
+  onEndAssessment,
 }) {
   const isLast = current === questions.length - 1;
+
+  const handleEndClick = () => {
+    const attempted = answers.filter((a) => a !== null).length;
+    const confirmed = window.confirm(
+      `End the assessment now? You have answered ${attempted} of ${questions.length} questions. ` +
+        `This cannot be undone and your current answers will be submitted.`
+    );
+    if (confirmed) onEndAssessment();
+  };
 
   return (
     <div className="quiz-shell">
@@ -29,8 +39,13 @@ export default function QuizScreen({
             <div className="brand-title">Research Aptitude &amp; Reasoning</div>
           </div>
         </div>
-        <div className="candidate-chip">
-          Candidate <strong>{candidateId}</strong>
+        <div className="topbar-actions">
+          <div className="candidate-chip">
+            Candidate <strong>{candidateId}</strong>
+          </div>
+          <button className="nav-btn end-btn" onClick={handleEndClick} disabled={locked}>
+            End assessment
+          </button>
         </div>
       </div>
 
