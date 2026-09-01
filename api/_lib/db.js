@@ -38,9 +38,13 @@ export function ensureSchema() {
             email TEXT,
             phone TEXT,
             domain_id INTEGER NOT NULL REFERENCES domains(id) ON DELETE RESTRICT,
+            started_at TIMESTAMPTZ,
             created_at TIMESTAMPTZ NOT NULL DEFAULT now()
           )
         `
+      )
+      .then(
+        () => sql`ALTER TABLE candidates ADD COLUMN IF NOT EXISTS started_at TIMESTAMPTZ`
       )
       .then(
         () => sql`

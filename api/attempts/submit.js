@@ -6,7 +6,7 @@ export default async function handler(req, res) {
 
   await ensureSchema();
 
-  const { candidateId, answers, timeUsedSeconds, timedOut, startedAt } = req.body || {};
+  const { candidateId, answers, timeUsedSeconds, timedOut } = req.body || {};
 
   if (!Number.isInteger(candidateId)) {
     return json(res, 400, { error: "Missing candidateId." });
@@ -15,9 +15,10 @@ export default async function handler(req, res) {
     return json(res, 400, { error: "Missing answers." });
   }
 
-  const candidateRows = await sql`SELECT id, domain_id FROM candidates WHERE id = ${candidateId}`;
+  const candidateRows = await sql`SELECT id, domain_id, started_at FROM candidates WHERE id = ${candidateId}`;
   if (candidateRows.length === 0) return json(res, 404, { error: "Candidate not found" });
   const domainId = candidateRows[0].domain_id;
+  const startedAt = candidateRows[0].started_at || new Date().toISOString();
 
   const questions = await sql`
     SELECT id, position, correct_index
@@ -43,7 +44,6 @@ export default async function handler(req, res) {
 
   const attemptedCount = correctCount + wrongCount;
   const safeTimeUsed = Number.isFinite(timeUsedSeconds) ? Math.max(0, Math.round(timeUsedSeconds)) : 0;
-  const safeStartedAt = startedAt && !Number.isNaN(Date.parse(startedAt)) ? startedAt : new Date().toISOString();
 
   const inserted = await sql`
     INSERT INTO attempts (
@@ -54,7 +54,7 @@ export default async function handler(req, res) {
     VALUES (
       ${candidateId}, ${domainId}, ${JSON.stringify(answers)}, ${correctCount}, ${questions.length},
       ${attemptedCount}, ${correctCount}, ${wrongCount}, ${notAttemptedCount},
-      ${safeTimeUsed}, ${Boolean(timedOut)}, ${safeStartedAt}
+      ${safeTimeUsed}, ${Boolean(timedOut)}, ${startedAt}
     )
     RETURNING id
   `;

@@ -18,8 +18,9 @@ export default function App() {
   const [locked, setLocked] = useState(false);
   const [timedOut, setTimedOut] = useState(false);
   const [submitError, setSubmitError] = useState("");
+  const [startError, setStartError] = useState("");
+  const [starting, setStarting] = useState(false);
   const timeUsedRef = useRef(0);
-  const startedAtRef = useRef(null);
 
   const durationSeconds = domain?.durationSeconds ?? 15 * 60;
 
@@ -34,7 +35,6 @@ export default function App() {
             answers: finalAnswers,
             timeUsedSeconds: timeUsed,
             timedOut: byTimeout,
-            startedAt: startedAtRef.current,
           }),
         });
         const data = await res.json();
@@ -88,9 +88,23 @@ export default function App() {
     }
   };
 
-  const handleStart = () => {
-    startedAtRef.current = new Date().toISOString();
-    setPhase(PHASES.QUIZ);
+  const handleStart = async () => {
+    setStartError("");
+    setStarting(true);
+    try {
+      const res = await fetch("/api/attempts/start", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ candidateId: candidate.id }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "Could not start the assessment.");
+      setPhase(PHASES.QUIZ);
+    } catch (err) {
+      setStartError(err.message || "Could not start the assessment. Please contact the coordinator.");
+    } finally {
+      setStarting(false);
+    }
   };
 
   const handleSelectOption = (optionIndex) => {
@@ -138,6 +152,8 @@ export default function App() {
         title={domain?.title || "Assessment"}
         questionCount={questions.length}
         durationSeconds={durationSeconds}
+        starting={starting}
+        startError={startError}
       />
     );
   }

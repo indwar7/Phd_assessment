@@ -1,6 +1,6 @@
 import orchidLogo from "../assets/orchid-logo.svg";
 
-export default function IntroScreen({ onStart, title, questionCount, durationSeconds }) {
+export default function IntroScreen({ onStart, title, questionCount, durationSeconds, starting, startError }) {
   const minutes = durationSeconds / 60;
 
   return (
@@ -38,10 +38,13 @@ export default function IntroScreen({ onStart, title, questionCount, durationSec
           </li>
           <li>The timer starts as soon as you click Begin and cannot be paused.</li>
           <li>When time expires, the assessment locks automatically and submits your current answers.</li>
+          <li>Your login can only be used to begin once — closing or refreshing the page will not give you a fresh attempt.</li>
         </ul>
 
-        <button className="start-btn" onClick={onStart}>
-          Begin assessment
+        {startError && <div className="login-error" style={{ marginBottom: 16 }}>{startError}</div>}
+
+        <button className="start-btn" onClick={onStart} disabled={starting}>
+          {starting ? "Starting…" : "Begin assessment"}
         </button>
       </div>
     </div>

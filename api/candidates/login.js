@@ -13,7 +13,7 @@ export default async function handler(req, res) {
   }
 
   const rows = await sql`
-    SELECT c.id, c.login_id, c.name, c.password, d.slug AS domain_slug, d.title AS domain_title
+    SELECT c.id, c.login_id, c.name, c.password, c.started_at, d.slug AS domain_slug, d.title AS domain_title
     FROM candidates c
     JOIN domains d ON d.id = c.domain_id
     WHERE c.login_id = ${loginId.trim().toLowerCase()}
@@ -32,9 +32,8 @@ export default async function handler(req, res) {
     return json(res, 401, { error: "Incorrect login ID or password." });
   }
 
-  const alreadyAttempted = await sql`SELECT id FROM attempts WHERE candidate_id = ${candidate.id} LIMIT 1`;
-  if (alreadyAttempted.length > 0) {
-    return json(res, 403, { error: "This login has already been used to submit an assessment." });
+  if (candidate.started_at !== null) {
+    return json(res, 403, { error: "This login has already been used to start an assessment." });
   }
 
   json(res, 200, {
