@@ -6,6 +6,10 @@ export function useCountdown(durationSeconds, active, onExpire) {
   onExpireRef.current = onExpire;
 
   useEffect(() => {
+    setTimeLeft(durationSeconds);
+  }, [durationSeconds]);
+
+  useEffect(() => {
     if (!active || timeLeft <= 0) return undefined;
 
     const id = setInterval(() => {
