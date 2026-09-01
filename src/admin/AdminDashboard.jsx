@@ -2,6 +2,7 @@ import { useCallback, useEffect, useState } from "react";
 import { formatTime } from "../hooks/useCountdown";
 import AttemptDetail from "./AttemptDetail";
 import ImportCandidates from "./ImportCandidates";
+import { downloadAttemptsCsv } from "./csvExport";
 
 export default function AdminDashboard({ token, onLogout }) {
   const [attempts, setAttempts] = useState(null);
@@ -50,9 +51,14 @@ export default function AdminDashboard({ token, onLogout }) {
 
       {attempts && attempts.length > 0 && (
         <>
-          <p className="skip-hint">
-            {submittedCount} of {attempts.length} candidates have submitted.
-          </p>
+          <div className="admin-table-toolbar">
+            <p className="skip-hint">
+              {submittedCount} of {attempts.length} candidates have submitted.
+            </p>
+            <button className="nav-btn" onClick={() => downloadAttemptsCsv(attempts)}>
+              Download CSV
+            </button>
+          </div>
           <div className="admin-table-wrap">
             <table className="admin-table">
               <thead>
