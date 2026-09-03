@@ -1,11 +1,20 @@
 import { sql, ensureSchema } from "../_lib/db.js";
 import { json } from "../_lib/util.js";
+import { getTestStartAt } from "../_lib/testWindow.js";
 
 // Called once when a candidate clicks "Begin assessment". Atomically marks
 // the login as started so it can never be reused to get a fresh timer,
 // whether or not the candidate goes on to submit.
 export default async function handler(req, res) {
   if (req.method !== "POST") return json(res, 405, { error: "Method not allowed" });
+
+  const startAt = getTestStartAt();
+  if (Date.now() < startAt.getTime()) {
+    return json(res, 403, {
+      error: "The assessment has not started yet.",
+      testStartsAt: startAt.toISOString(),
+    });
+  }
 
   await ensureSchema();
 

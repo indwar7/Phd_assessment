@@ -510,6 +510,14 @@
   max-width: 40ch;
 }
 
+.login-countdown {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
 .login-form {
   display: flex;
   flex-direction: column;

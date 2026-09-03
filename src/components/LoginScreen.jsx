@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import orchidLogo from "../assets/orchid-logo.svg";
+import { getTestStartAt, formatCountdown } from "../lib/testWindow";
 
 export default function LoginScreen({ onLoggedIn }) {
   const [loginId, setLoginId] = useState("");
@@ -7,6 +8,17 @@ export default function LoginScreen({ onLoggedIn }) {
   const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState("");
   const [submitting, setSubmitting] = useState(false);
+  const [msUntilStart, setMsUntilStart] = useState(() => getTestStartAt().getTime() - Date.now());
+
+  useEffect(() => {
+    if (msUntilStart <= 0) return undefined;
+    const id = setInterval(() => {
+      setMsUntilStart(getTestStartAt().getTime() - Date.now());
+    }, 1000);
+    return () => clearInterval(id);
+  }, [msUntilStart <= 0]);
+
+  const testStarted = msUntilStart <= 0;
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -25,7 +37,10 @@ export default function LoginScreen({ onLoggedIn }) {
         body: JSON.stringify({ loginId: loginId.trim(), password }),
       });
       const data = await res.json();
-      if (!res.ok) throw new Error(data.error || "Incorrect login ID or password.");
+      if (!res.ok) {
+        if (data.testStartsAt) setMsUntilStart(new Date(data.testStartsAt).getTime() - Date.now());
+        throw new Error(data.error || "Incorrect login ID or password.");
+      }
       onLoggedIn(data.candidate);
     } catch (err) {
       setError(err.message || "Incorrect login ID or password.");
@@ -33,6 +48,25 @@ export default function LoginScreen({ onLoggedIn }) {
       setSubmitting(false);
     }
   };
+
+  if (!testStarted) {
+    return (
+      <div className="screen">
+        <div className="login-card">
+          <img src={orchidLogo} alt="Orchid University" className="login-logo" />
+          <div className="login-badge">Doctoral Candidate Portal</div>
+          <h1 className="login-title">The assessment has not started yet</h1>
+          <p className="login-sub">
+            Test starts at 3:00 PM. Please come back then to sign in with the login ID and
+            password provided in your invitation email.
+          </p>
+          <div className="login-countdown" aria-live="polite">
+            {formatCountdown(msUntilStart)}
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="screen">
